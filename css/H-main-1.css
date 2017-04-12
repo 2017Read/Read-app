@@ -1,7 +1,7 @@
 @charset "UTF-8";
 header {
   width: 100%;
-  height: 2.3rem;
+  height: 2.2rem;
   background: #1d89f7;
   overflow: hidden;
   position: absolute;
@@ -13,7 +13,7 @@ header {
   height: 0.4rem;
   background: red; }
 
-.H-top-box {
+.H-top-box-1 {
   width: 100%;
   height: 1.1rem;
   overflow: hidden;
@@ -109,3 +109,103 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 0.56rem; }
+
+.H-top-box-2 {
+  width: 100%;
+  height: 0.7rem; }
+
+.H-top-main-1 {
+  background-image: url("../img/H-img/head/H-top-box.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.9rem;
+  width: 2.9rem;
+  height: 0.62rem;
+  float: left;
+  margin-left: 2.3rem; }
+
+.H-top-main-text-1 {
+  background-image: url("../img/H-img/head/H-head-5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  width: 1.3rem;
+  height: 0.5rem;
+  float: left;
+  margin-left: 0.08rem;
+  margin-top: 0.06rem; }
+
+.H-top-main-text-2 {
+  background-image: url("../img/H-img/head/H-head-6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.93rem;
+  width: 0.93rem;
+  height: 0.5rem;
+  margin-top: 0.06rem;
+  margin-right: 0.3rem;
+  float: right; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  background: #FFFFFF; }
+
+.H-bottom-1 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.62rem;
+  margin-left: 0.4rem; }
+
+.H-bottom-2 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.51rem; }
+
+.H-bottom-3 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.62rem; }
+
+.H-bottom-4 {
+  width: 1.2rem;
+  height: 100%;
+  float: left;
+  background-image: url("../img/H-img/head/H-main-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.45rem; }
+
+.H-bottom-line {
+  width: 0.7rem;
+  float: left;
+  height: 100%;
+  background-image: url("../img/H-img/head/H-main-line.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.01rem;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.H-main-banner {
+  height: 5.5rem;
+  background: #1D89F7;
+  background-image: url("../img/H-img/head/H-main-bg-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7.5rem; }
