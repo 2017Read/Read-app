@@ -1,0 +1,154 @@
+body{
+	background:#F2F2F2;
+	overflow: hidden;
+}
+.D-header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+}
+.D-imgbox{
+	width:100%;
+	height:6.4rem;
+	position: relative;
+}
+.D-imgbox > ul{
+	width:4.2rem;
+	height:6.4rem;
+	margin:0 auto;
+	position:absolute;
+}
+.D-imgbox > ul:first-child{
+	left:50%;
+	margin-left:-2.1rem;
+	top:0;
+}
+.D-imgbox > ul:nth-child(2){
+	left:6.8rem;
+	top:0.3rem;
+}
+.D-imgbox > ul:nth-child(3){
+	right:6.8rem;
+	top:0.3rem;
+}
+.D-imgbox > ul > li.D-likeimg1{
+	width:2.4rem;
+	height:0.75rem;
+	margin:0  auto;
+}
+.D-imgbox > ul > li.D-likeimg1 > img{
+	display: block;
+	width:100%;
+	margin-top:0.05rem;
+}
+.D-imgbox > ul > li.D-likeimg2{
+	width:4.2rem;
+	height:6rem;
+	margin:0  auto;
+}
+.D-imgbox > ul > li.D-likeimg2 > img{
+	display: block;
+	width:100%;
+}
+.D-imgbox > ul > li.D-circle{
+	width:0.8rem;
+	height:0.8rem;
+	border-radius:50%;
+	background:rgba(142,142,142,0.5);
+	/*background:red;*/
+	position:absolute;
+	left:3.73rem;
+	top:6.1rem;
+}
+.D-imgbox > ul > li.D-circle1{
+	width:0.6rem;
+	height:0.6rem;
+	border-radius:50%;
+	background:rgba(255,255,255,1);
+	position:absolute;
+	left:3.82rem;
+	top:6.2rem;
+	z-index:2;
+}
+.D-wenzibox{
+	width:4.2rem;
+	height:auto;
+	margin:0 auto;
+}
+.D-wenzibox > div.D-zi1{
+	width:100%;
+	height:auto;
+}
+.D-wenzibox > div.D-zi1 > span:first-child{
+	font-size:0.4rem;
+	font-weight:bold;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi1 > span:last-child{
+	font-size: 0.26rem;
+	font-weight:normal;
+	color:#151719;
+}
+.D-wenzibox > div.D-zi2{
+	width:100%;
+	height:auto;
+	margin-top:-0.6rem;
+}
+.D-wenzibox > div.D-zi2 > span:first-child{
+	font-size:0.36rem;
+	font-weight:bold;
+	color:#2e9fef;
+}
+.D-wenzibox > div.D-zi2 > span:last-child{
+	font-size: 0.36rem;
+	font-weight:normal;
+	color:#2e9fef;
+	margin-left:-0.27rem;
+}
+.D-wenzibox > div.D-zi3{
+	width:100%;
+	height:auto;
+	margin-top:-0.6rem;
+}
+.D-wenzibox > div.D-zi3 > span:first-child{
+	font-size:0.22rem;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi3 > span:last-child{
+	display: block;
+	font-size: 0.22rem;
+	color:#2e363c;
+}
+.D-wenzibox > div.D-zi4{
+	width:120%;
+	height:0.66rem;
+	margin-top:10px;
+	position:relative;
+}
+.D-wenzibox > div.D-zi4 > div.D-touxiang{
+	width:0.66rem;
+	height:0.66rem;
+	border-radius: 50%;
+	position:absolute;
+	top:0;
+}
+.D-wenzibox > div.D-zi4 > div:first-child{
+	left:0;
+	background:red;
+}
+.D-wenzibox > div.D-zi4 > div:nth-child(2){
+	left:0.5rem;
+	background:blue;
+}
+.D-wenzibox > div.D-zi4 > div:nth-child(3){
+	left:1rem;
+	background:yellow;
+}
+.D-wenzibox > div.D-zi4 > div:nth-child(4){
+	left:1.5rem;
+	background:green;
+}
+.D-wenzibox > div.D-zi4 > div:nth-child(5){
+	left:2rem;
+	background:pink;
+}
