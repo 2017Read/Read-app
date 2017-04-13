@@ -2,15 +2,61 @@ body{
 	background:#F2F2F2;
 	overflow: hidden;
 }
-.D-header{
+
+/*header*/
+header{
 	width:100%;
 	height:2.2rem;
 	background:#1D89F7;
+	text-align:center;
+	position:relative;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left{
+	width:0.64rem;
+	width:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-right{
+	width:0.64rem;
+	width:0.64rem;
+	float:right;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
 }
 .D-imgbox{
 	width:100%;
 	height:6.4rem;
 	position: relative;
+	margin-top:0.2rem;
 }
 .D-imgbox > ul{
 	width:4.2rem;
@@ -38,13 +84,15 @@ body{
 }
 .D-imgbox > ul > li.D-likeimg1 > img{
 	display: block;
-	width:100%;
-	margin-top:0.05rem;
+	width:130%;
+	margin-top:-0.2rem;
+	margin-left:-0.25rem;
 }
 .D-imgbox > ul > li.D-likeimg2{
 	width:4.2rem;
 	height:6rem;
 	margin:0  auto;
+	margin-top:0.2rem;
 }
 .D-imgbox > ul > li.D-likeimg2 > img{
 	display: block;
@@ -69,6 +117,12 @@ body{
 	left:3.82rem;
 	top:6.2rem;
 	z-index:2;
+}
+.D-imgbox > ul > li.D-circle1 > img{
+	width:95%;
+	margin-left:0.02rem;
+	margin-bottom:0.02rem;
+	display: block;
 }
 .D-wenzibox{
 	width:4.2rem;
@@ -121,34 +175,75 @@ body{
 }
 .D-wenzibox > div.D-zi4{
 	width:120%;
-	height:0.66rem;
-	margin-top:10px;
+	height:0.55rem;
+	margin-top:0.3rem;
 	position:relative;
 }
 .D-wenzibox > div.D-zi4 > div.D-touxiang{
-	width:0.66rem;
-	height:0.66rem;
+	width:0.55rem;
+	height:0.55rem;
 	border-radius: 50%;
+	border:0.06rem solid #fff;
+	box-shadow: 0 0 0.07rem rgba(0,0,0,0.1);
 	position:absolute;
 	top:0;
 }
 .D-wenzibox > div.D-zi4 > div:first-child{
-	left:0;
-	background:red;
+	left:0;	
+	background-image: url(../img/D-img/D-like1_03.png);
+	background-size:200%;
+	background-position: -0.4rem center;
 }
 .D-wenzibox > div.D-zi4 > div:nth-child(2){
 	left:0.5rem;
-	background:blue;
+	background-image: url(../img/D-img/D-like5.png);
+	background-size:200%;
+	background-position: -0.3rem center;
 }
 .D-wenzibox > div.D-zi4 > div:nth-child(3){
 	left:1rem;
-	background:yellow;
+	background-image: url(../img/D-img/D-like1_03.png);
+	background-size:200%;
+	background-position: -0.4rem center;
 }
 .D-wenzibox > div.D-zi4 > div:nth-child(4){
 	left:1.5rem;
-	background:green;
+	background-image: url(../img/D-img/D-like6.png);
+	background-size:200%;
+	background-position: -0.4rem center;
 }
 .D-wenzibox > div.D-zi4 > div:nth-child(5){
 	left:2rem;
-	background:pink;
+	background-image: url(../img/D-img/D-like8.png);
+	background-size:200%;
+	background-position: -0.2rem center;
+}
+.D-wenzibox > div.D-zi4 > img.D-img1{
+	position:absolute;
+	left:2.8rem;
+	width:0.55rem;
+}
+.D-wenzibox > div.D-zi4 > img.D-img2{
+	position:absolute;
+	left:4.6rem;
+	width:0.55rem;
+	margin-left:-0.3rem;
+}
+.D-wenzibox > div.D-zi4 > span.D-span1{
+	display: block;
+	position:absolute;
+	left:3.7rem;
+	color:#767676;
+	font-size:0.24rem;
+	margin-left:-0.3rem;
+	margin-top:0.2rem;
+}
+.D-wenzibox > div.D-zi4 > span.D-span2{
+	display: block;
+	position:absolute;
+	left:5.2rem;
+	color:#767676;
+	font-size:0.24rem;
+	margin-left:-0.3rem;
+	margin-top:0.2rem;
 }
