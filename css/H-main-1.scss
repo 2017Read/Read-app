@@ -1,4 +1,36 @@
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#wrapper {
+    position: absolute;
+    z-index: -1;
+    top: 2.2rem;
+    bottom: 0.48rem;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
 //头部
+
 header{
 	width: 100%;
 	height: 2.2rem;
@@ -7,6 +39,7 @@ header{
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 2;
 }
 .H-top-title{
     width: 100%;
@@ -186,10 +219,145 @@ footer{
 }
 //banner开始
 .H-main-banner{
-    height: 5.5rem;
+    padding-top: 0.3rem;
+    height: 5.2rem;
     background: #1D89F7;
     @include bg-image('../img/H-img/head/H-main-bg-1.png',7.5rem)
 }
+.H-banner-box{
+    width: 6.4rem;
+    height: 5.2rem;
+    overflow: hidden;
+    position: relative;
+    padding-left: 0.6rem;
+}
+.H-banner-dian-box{
+    width: 0.94rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    background: rgba(54,155,227,0.8);
+    position: absolute;
+    left: 50%;
+    top:2.88rem;
+    margin-left: -0.47rem;
+    z-index: 30;
+}
+.H-banner-dian-box > li{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    background-color: rgba(255,255,255,0.7);
+    float: left;
+    margin-left: 0.06rem;
+    margin-top: 0.06rem;
+}
+.H-banner-dian-box > li.H-active{
+    width: 0.24rem;
+}
+.H-banner-1{
+    display: block;
+    width: 6.4rem;
+    height: 3.98rem;
+    @include bg-image("../img/H-img/banner/1.png",6.4rem)
+    position: absolute;
+    top: 0;
+    left: 0.6rem;
+    z-index: 10;
+}
+.H-banner-cover{
+    background: rgba(0,0,0,0.3);
+    width: 6.25rem;
+    margin-top: 0.02rem;
+    margin-left: 0.04rem;
+    height: 0.52rem;
+    border-radius: 3px 3px;
+}
+.H-banner-head{
+    @include bg-image('../img/H-img/banner/2.png',1.39rem)
+    width: 1.39rem;
+    height:0.37rem ;
+    float: left;
+    margin: {
+        top: 0.06rem;
+        left: 0.1rem;
+    };
+}
+//banner下说明
+.H-banner-explain-box{
+    width: 5.56rem;
+    height: 1.63rem;
+    position: absolute;
+    top: 3.04rem;
+    left: 0.9rem;
+    overflow: hidden;
+    z-index: 20;
+    background: url(../img/H-img/banner/4.png);
+    background-size: 5.56rem;
+    background-repeat: no-repeat;
+}
+.H-banner-explain-img{
+    width:1.22rem;
+    height: 1.63rem;
+    float: left;
+    background: url(../img/H-img/banner/3.png);
+    background-size: 1.22rem;
+    background-position-x:0.02rem ;
+    background-repeat: no-repeat;
+}
+.H-banner-explain-text{
+    width: 4.34rem;
+    height: 1.20rem;
+    overflow: hidden;
+    margin-top: 0.4rem;
+    margin-left: 1.4rem;
+    position: relative;
+    p{
+     color: #369be3;
+     font-weight: 600;
+     font-size: 0.24rem;
+     font-family: "San Francisco Display";   
+    }
+    h5{
+        color: #2e363c;
+        font-size: 0.22rem;
+        font-weight: 400;
+    }
+   
+}
+.H-banner-icon-1{
+        width: 1.4rem;
+        height: 0.56rem;
+        background: url(../img/H-img/banner/5.png);
+        background-size: 0.56rem;
+        float: left;
+        background-repeat: no-repeat; 
+        margin-left: -0.08rem;
+        margin-top: -0.08rem;
+        position: relative;        
+    }
+.H-banner-icon-2{
+        @extend .H-banner-icon-1;
+        margin-left: 0.2rem;
+        background-image: url(../img/H-img/banner/6.png);
+    }
+.H-banner-shu{
+        color: #e6e6e6;
+        font-size: 12px;
+        position: absolute;
+        top: 0.14rem;
+        left: 1.4rem;
+    }
+.H-banner-icon-1{
+     h6{
+        font-size: 12px;
+        font-weight: 100;
+        float:left;
+        margin-left: 0.5rem;
+        margin-top: 0.12rem;
+    }
+}
+
+//主体
 .H-main-body{
     width: 100%;
     height: auto;
@@ -245,6 +413,7 @@ footer{
     top: 0.11rem;
     
 }
+//猜你喜欢
 .H-main-like-box{
     width: 100%;
     height: auto;
@@ -296,6 +465,7 @@ footer{
     margin-left: 0.2rem;
     
 }
+//推荐
 .H-main-tuijian-box{
     @extend .H-main-like-box;
 }
@@ -312,4 +482,116 @@ footer{
     height: 4.43rem;
     margin-left: 0.2rem;
     overflow: hidden;
+}
+.H-tuijian-img{
+    display: block;
+    background: url(../img/H-img/H-tuijian-1.png);
+    background-size:7.02rem;
+    width: 7.02rem;
+    height: 4.45rem;
+    margin-top: 0.2rem;
+}
+//人气排行
+.H-main-renqi-box{
+     @extend .H-main-like-box;
+     margin-top: 0.2rem;
+        padding-bottom: 0.4rem;
+}
+.H-renqi-title-box{
+    @extend .H-like-title-box;
+    background-image: url(../img/H-img/H-paihang.png);
+    margin-bottom: 0.12rem;
+}
+.H-renqi-main-box{
+    width:7.02rem;
+    height: 1.5rem;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 0.04rem;
+    margin-top: 0.12rem;
+    position: relative;
+    .H-renqi-img-1{
+        width: 0.8rem;
+        float: left;
+        margin-left: 0.24rem;
+        margin-top: 0.19rem;
+    }
+}
+.H-renqi-titleBox{
+    width: 3rem;
+    height: 0.6rem;
+    float:left;
+    position: relative;
+    .title-1{
+        display: block;
+        font-size: 0.28rem;
+        font-weight: bold;
+        color: #2c3840;
+        float: left;
+        margin-left: 0.14rem;
+        margin-top: 0.04rem;        
+    }
+    .title-2{
+        display: block;
+        font-size: 0.2rem;
+        font-weight: bold;
+        float: left;
+        color: #39abf9;
+        margin:{
+            left: 0.1rem;
+            top: 0.1rem;
+        }
+    }
+    .title-3{
+        display: block;
+        position: absolute;
+        width: 0.57rem;
+        height: 0.03rem;
+        background-image: url(../img/H-img/H-diandian.png);
+        background-size: 0.57rem;
+        background-repeat: no-repeat;
+        top: 0.46rem;
+        left: 0.2rem;
+    }
+    
+}
+.H-renqi-data{
+    width: 3.04rem;
+    height: 0.56rem;
+    float: left;
+    .H-renqi-img-2{
+        float: left;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        margin:{
+          top: 0.02rem;
+          left: 0.2rem;  
+        };
+    }
+    .H-renqi-data-1{
+        font-size: 0.24rem;
+        width: 1.16rem;
+        height: auto;
+        float: left;
+        margin-left: 0.2rem;
+    }
+    .H-renqi-data-img{
+        background: url(../img/H-img/H-renqi-data.png);
+        width: 2.35rem;
+        height: 0.17rem;
+        background-size: 2.35rem;
+        float: left;
+        margin-left: 0.9rem;
+        margin-top: -0.1rem;
+    }
+}
+.H-renqi-hot{
+    width: 0.83rem;
+    height: 1.03rem;
+    background: url(../img/H-img/H-hot.png);
+    background-size: 0.83rem;
+    position: absolute;
+    right: 0.2rem;
+    top: -0.16rem;
 }

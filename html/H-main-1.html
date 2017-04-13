@@ -14,8 +14,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/H-main-1.css"/>
 		<script type="text/javascript" src="../common/js/common.js"></script>
 		<script src="../js/H-main-1.js"></script>
+		<script type="text/javascript" src="../js/iscroll.js"></script>
 	</head>
-	<body>
+	<body onload="loaded()" style="overflow: hidden;">
 		<header>
 			<div class="H-top-title"></div>
 			<div class="H-top-box-1">
@@ -39,43 +40,155 @@
 				</div>
 			</div>
 		</header>
-		<!--banner开始-->
-		<div class="H-iscioll-main">
-			<div class="H-main-banner">
-				
-			</div>	
-			<div class="H-main-body">
-				<div class="H-search-box">
-					<div class="H-search-dian"></div>
-					<img src="../img/H-img/H-search-icon.png" class="H-search-icon"/>
-					<input type="text" placeholder="Search" name="search" id="H-search" value="" />
-					<div class="H-search-yy"></div>
-				</div>
-				<div class="H-main-like-box">
-					<div class="H-like-title-box">
-						<a href="" class="H-like-more"></a>
+		
+		<div id="wrapper">
+			<div class="H-iscioll-main" id="scroller">
+				<!--banner开始-->
+				<div class="H-main-banner">
+					<div class="H-banner-box">
+						<ul class="H-banner-dian-box">
+							<li class="H-active"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<a href="" class="H-banner-1">
+							<div class="H-banner-cover">
+								<div class="H-banner-head"></div>
+							</div>
+						</a>
+						<div class="H-banner-explain-box">
+							<div class="H-banner-explain-img"></div>
+							<div class="H-banner-explain-text">
+								<p>WORLD<span class="span-1">LOST</span> <span class="span-2">TAIZAI.ZHI</span></p>
+								<h5>主角从青少年到中年为了逃避现实</h5>
+								<div class="H-banner-icon-1">
+									<h6>3260</h6>
+									<span class="H-banner-shu">|</span>
+								</div>
+								<div class="H-banner-icon-2">
+									<h6>3260</h6>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="H-like-book-box">
-						<div class="H-like-book-1"></div>						
-						<div class="H-like-book-2"></div>						
-						<div class="H-like-book-3"></div>						
+				</div>	
+				<!--主体-->
+				<div class="H-main-body">
+					<div class="H-search-box">
+						<div class="H-search-dian"></div>
+						<img src="../img/H-img/H-search-icon.png" class="H-search-icon"/>
+						<input type="text" placeholder="Search" name="search" id="H-search" value="" />
+						<div class="H-search-yy"></div>
 					</div>
-				</div>
-				<div class="H-main-tuijian-box">
-					<div class="H-tuijian-title-box">
-						<a href="" class="H-tuijian-more"></a>
+					<div class="H-main-like-box">
+						<div class="H-like-title-box">
+							<a href="" class="H-like-more"></a>
+						</div>
+						<div class="H-like-book-box">
+							<div class="H-like-book-1"></div>						
+							<div class="H-like-book-2"></div>						
+							<div class="H-like-book-3"></div>						
+						</div>
 					</div>
-					<div class="H-tuijian-main-box">
-						<a href=""><img src=""/></a>
+					<div class="H-main-tuijian-box">
+						<div class="H-tuijian-title-box">
+							<a href="" class="H-tuijian-more"></a>
+						</div>
+						<div class="H-tuijian-main-box">
+							<a href="" class="H-tuijian-img">
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="H-main-like-box">
-					<div class="H-like-titles-box">
-						<a href="" class="H-like-more"></a>
+					<div class="H-main-renqi-box">
+						<div class="H-renqi-title-box">
+							<a href="" class="H-like-more" style="background-image:url(../img/H-img/H-l-dian.png) ;"></a>
+						</div>
+						<div class="H-renqi-main-box">
+							<div class="H-renqi-hot"></div>
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
+						<div class="H-renqi-main-box">
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
+						<div class="H-renqi-main-box">
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
+						<div class="H-renqi-main-box">
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
+						<div class="H-renqi-main-box">
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
+						<div class="H-renqi-main-box">
+							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
+							<div class="H-renqi-titleBox">
+								<span class="title-1">间失格</span>
+								<span class="title-2">WORLDLOST</span>
+								<span class="title-3"></span>
+							</div>
+							<div class="H-renqi-data">
+								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
+								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-img"></div>
+							</div>
+						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
+		
 		<!--底部-->
 		<footer>
 			<div class="H-bottom-1"></div>
@@ -88,3 +201,31 @@
 		</footer>
 	</body>
 </html>
+<script type="text/javascript">
+	function isPassive() {
+    var supportsPassiveOption = false;
+    try {
+        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+            get: function () {
+                supportsPassiveOption = true;
+            }
+        }));
+    } catch(e) {}
+    return supportsPassiveOption;
+}
+	function loaded () {
+	myScroll = new IScroll('#wrapper', {
+		scrollbars: true,
+		mouseWheel: true,
+		interactiveScrollbars: true,
+		shrinkScrollbars: 'clip',
+		fadeScrollbars: true,
+		resizeScrollbars:true,
+	});
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+	capture: false,
+	passive: false,
+} : false);
+</script>
