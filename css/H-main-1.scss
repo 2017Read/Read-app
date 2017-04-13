@@ -11,7 +11,6 @@ header{
 .H-top-title{
     width: 100%;
     height: 0.4rem;
-    background: red;
 }
 @mixin lr($top,$width,$height){
     position: absolute;
@@ -74,6 +73,7 @@ header{
     width: 0.88rem;
     margin-left: 0.14rem;
 }
+
 .H-head-dian-1{
     width: 0.14rem;
     height: 0.06rem;
@@ -189,5 +189,127 @@ footer{
     height: 5.5rem;
     background: #1D89F7;
     @include bg-image('../img/H-img/head/H-main-bg-1.png',7.5rem)
+}
+.H-main-body{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    padding: {
+        top: 0.36rem;
+    };
+}
+.H-search-box{
+    width: 7.02rem;
+    height: 0.49rem;
+    border-radius: 0.3rem;
+    background: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    padding: {
+        top: 0.11rem;
+        
+    };
+}
+#H-search{
+    position: absolute;
+    display: block;
+    width: 5.3rem;
+    height: 0.36rem;
+    top: 0.11rem;
+    left: 0.7rem;
+    border: none;
+}
+.H-search-icon{
+    position: absolute;
+    width: 0.36rem;
+    height: 0.36rem;
+    top: 0.11rem;
+    left: 0.34rem;
+}
+.H-search-dian{
+    background: url(../img/H-img/H-main-dian.png);
+    background-size: 0.23rem;
+    width: 0.23rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0;
+    left: 0.04rem;
+}
+.H-search-yy{
+    background:url(../img/H-img/H-yy.png);
+    background-size:0.7rem;;   
+    width:0.7rem;
+    height: 0.36rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.11rem;
     
+}
+.H-main-like-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: {
+        top: 0.2rem;
+    };
+}
+.H-like-title-box{
+    width: 100%;
+    background: url(../img/H-img/H-like.png);
+    background-size: 7.5rem;
+    height: 0.94rem;
+}
+.H-like-more{
+    display: block;
+    width:0.76rem;
+    height: 0.6rem;
+    background: url(../img/H-img/H-h-dian.png);
+    background-size: 0.76rem;
+    float: right;
+}
+.H-like-book-box{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: {
+        top: 0.1rem;
+    };
+}
+.H-like-book-1{
+    @include bg-image("../img/H-img/H-book-1.png",2.21rem)
+    width: 2.21rem;
+    height: 3.57rem;
+    float: left;
+    margin: {
+        left: 0.24rem;
+    };
+}
+.H-like-book-2{
+    @extend .H-like-book-1;
+    background-image:url(../img/H-img/H-book-2.png);
+    margin-left: 0.2rem;
+}
+.H-like-book-3{
+    @extend .H-like-book-1;
+    background-image:url(../img/H-img/H-book-3.png);
+    margin-left: 0.2rem;
+    
+}
+.H-main-tuijian-box{
+    @extend .H-main-like-box;
+}
+.H-tuijian-title-box{
+    @extend .H-like-title-box;
+    background-image: url(../img/H-img/H-tuijian.png);
+}
+.H-tuijian-more{
+    @extend .H-like-more;
+    background-image: url(../img/H-img/H-g-dian.png);
+}
+.H-tuijian-main-box{
+    width: 7.02rem;
+    height: 4.43rem;
+    margin-left: 0.2rem;
+    overflow: hidden;
 }
