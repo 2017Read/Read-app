@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body{
+	background: #F2F2F2;
+
+}
+
+
+.W-box{
+	width:auto;
+	height:3.3rem;
+	/*background: pink;*/
+	margin:0 0.24rem;
+	box-sizing: border-box;
+
+}
+.W-tiao{
+	width:100%;
+	height:1rem;
+	margin-bottom: 0.12rem;
+	border-radius: 0.11rem;
+	background:#fff;
+	box-shadow:0 0.05rem 0.15rem 0 #D6D6D6;
+}
+.W-img1{
+	width:0.7rem;
+	float:left;
+	margin-top:0.2rem;
+	
+	/*box-shadow:   3px 0 3px 0 #DEDEDE;*/
+}
+.W-fontbox{
+	width:5.8rem;
+	height:1rem;
+	float: left;
+	
+}
+.W-font1{
+	width: auto;
+	height: auto;
+}
+.W-font1>p{
+	font-size:0.2rem;
+	margin-top:0.15rem;
+	margin-bottom: 0;
+	color: #666666;
+}
+.W-dian{
+	width: 4.6rem;
+	margin-top: -0.04rem;
+	display: block;
+
+}
+.W-font2{
+	width: auto;
+	height: auto;
+	margin-top: -0.04rem;
+	
+}
+.W-font2>p{
+	font-size:0.12rem;
+	color: #979797;
+}
+.W-img2{
+	width: 0.28rem;
+	float: left;
+	margin-top: 0.35rem;
+}
+/*三个条结束*/
+.W-calltop{
+	height:1.34rem;
+	width:100%;
+	/*background: red;*/
+	text-align: center;
+	
+}
+.W-calltop>div.W-fontone{
+	height:0.3rem;
+	padding-top: 0.48rem;
+	font-size: 0.18rem;
+	color:#7B7B7B;
+	margin: 0 40%;
+}
+
+.W-calltop>div.W-fontone>p{
+	float:left;
+}
+.W-calltop>div.W-fontone>span{	
+	display: block;
+	color: #FFA750rem;
+	font-size: 0.3;
+	float:left;
+	line-height: 0.32rem;
+}
+.W-calltop>div.W-fonttwo{
+	height:0.33rem;
+	text-align: center;
+	margin: 0 30%;
+	color: #8AC6F6;
+	
+}
+.W-calltop>div.W-fonttwo>span{
+	/*margin-top: -0.2rem;*/
+	font-size: 0.18rem;
+	font-weight: 200;
+	display: block;
+	float: left;
+	
+
+}
+.W-calltop>div.W-fonttwo>span.cu{
+	font-weight: 700;
+	
+}
+.W-calltop>img{
+	height:0.25rem;
+	margin: 0 auto;
+	display: block;
+	/*margin-top: -0.05rem;*/
+	/*margin-right: 50%;*/
+}
