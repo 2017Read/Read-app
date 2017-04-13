@@ -3,7 +3,9 @@ html{
 }
 body{
 	background:#F2F2F2;
+	font-weight:normal;
 }
+
 
 
 /*header*/
@@ -12,6 +14,7 @@ header{
 	height:2.2rem;
 	background:#1D89F7;
 	text-align:center;
+	position:relative;
 }
 .X-header-top{
 	width:100%;
@@ -31,6 +34,24 @@ header{
 	float:right;
 	margin-top:0.4rem;
 	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
 }
 .X-shop{
 	font-size:18px;
@@ -65,7 +86,12 @@ header{
 	font-size:0.12rem;
 	position:relative;
 }
-
+.X-first .X-first-med{
+	float:left;
+	width:3.6rem;
+	height:1.32rem;
+	margin-top:0.2rem;
+}
 .X-first ul li .X-one{
 	width:1.07rem;
 	height:1.32rem;
@@ -78,20 +104,22 @@ header{
 	width:3.6rem;
 	height:0.2rem;
 	float:left;
-	margin-top:0.2rem;
+	margin-left:0.2rem;
+}
+.X-first ul li .X-pone > a:nth-child(1){
+	font-size:0.3rem;
+	color:#344047;
+	font-weight:bold;
 	
 }
-.X-first ul li .X-pone > span:nth-child(1){
-	font-size:0.18rem;
-	color:#2E3B43;
-}
-.X-first ul li .X-pone > span:nth-child(2){
+.X-first ul li .X-pone > a:nth-child(2){
 	font-size:0.12rem;
-	color:#2E3B43;
+	color:#3CABF9;
+	font-weight:bold;
 }
-.X-first ul li .X-pone > span:nth-child(3){
-	font-size:0.14rem;
-	color:#2E3B43;
+.X-first ul li .X-pone > a:nth-child(3){
+	font-size:0.25rem;
+	color:#3CABF9;
 }
 .X-first ul li .X-ptwo{
 	font-size:0.12rem;
@@ -99,13 +127,15 @@ header{
 	height:0.2rem;
 	float:left;
 	color:#686464;
-	margin-top:0.2rem;
+	margin-top:0.3rem;
+	margin-left:0.2rem;
 }
 
 .X-first ul li .X-pthree{
 	width:3.6rem;
 	height:0.2rem;
 	float:left;
+	margin-left:0.2rem;
 }
 .X-first ul li .X-pthree .X-two{
 	width:1.57rem;
