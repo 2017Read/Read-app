@@ -1,3 +1,7 @@
+html,body{
+	width:100%;
+	height:100%;
+}
 .box{
 	width:100%;
 	height:100%;
@@ -5,14 +9,19 @@
 	background-image:url(../img/L-img/10.png);
 	background-size:100% 100%;
 }
+form{
+	width:auto;
+	height:auto;
+	position:absolute;
+	right:0;
+	top:5rem;
+}
 .write{
 	width:6.5rem;
 	height:5rem;
-	position:absolute;
 	box-sizing:border-box;
 	padding:0 0.2rem 0 0.5rem;
-	right:0;
-	top:5rem;
+	
 }
 .write > li:first-child{
 	height:0.49rem;
