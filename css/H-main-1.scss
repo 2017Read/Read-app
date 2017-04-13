@@ -224,10 +224,20 @@ footer{
     background: #1D89F7;
     @include bg-image('../img/H-img/head/H-main-bg-1.png',7.5rem)
 }
+.H-banner-background-img{
+    background-image: url(../img/H-img/banner/7.png);
+    background-size: 6.31rem;
+    width: 6.31rem;
+    height: 0.45rem;
+    position: absolute;
+    top: -0.44rem;
+    left: 0.7rem;
+    z-index: 8;
+}
 .H-banner-box{
     width: 6.4rem;
     height: 5.2rem;
-    overflow: hidden;
+//  overflow: hidden;
     position: relative;
     padding-left: 0.6rem;
 }
