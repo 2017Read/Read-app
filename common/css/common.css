@@ -12,7 +12,7 @@ body{
 		max-height:9999999px;
 }
 
-body,header,section,ul,li,ol,dt,dd,input,h1,h2,h3,h4,h5,h6{
+body,header,section,ul,li,ol,dt,dd,p,input,h1,h2,h3,h4,h5,h6{
 	margin:0px;
 	padding:0px;
 	font-family:"Hekvetica", "sans-serif";
@@ -23,7 +23,3 @@ a{
 li{
 	list-style:none;
 }
-html, body {
-    position: relative;
-    height: 100%;
-    }
