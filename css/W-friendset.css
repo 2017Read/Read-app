@@ -9,13 +9,66 @@ body{
 
 }
 
-
+/*header*/
+header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+	text-align:center;
+	position:relative;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left{
+	width:0.64rem;
+	width:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-right{
+	width:0.64rem;
+	width:0.64rem;
+	float:right;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
+}
+/*5个条*/
 .W-box{
 	width:auto;
 	height:5.5rem;
 	/*background: pink;*/
 	margin:0 0.24rem;
 	box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 1.9rem;
+	
 
 }
 .W-tiao{
@@ -68,10 +121,14 @@ body{
 	width: 0.28rem;
 	float: left;
 	margin-top: 0.35rem;
+	margin-right: 0.2rem;
 }
+/*删除按钮*/
+
+
 .W-shan{
 	height:0.8rem;
-	margin-top: 1.37rem;
-	margin-left: 2.48rem;
-	
+	position: absolute;
+	top:10rem;
+	left:2.48rem;
 }
