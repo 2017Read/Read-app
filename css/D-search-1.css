@@ -1,6 +1,3 @@
-body{
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;	
-}
 /*header*/
 header{
 	width:100%;
@@ -107,7 +104,7 @@ header{
   width: 4.2rem;
   height: 0.36rem;
   top: 0.11rem;
-  left: 0.7rem;
+  left: 0.78rem;
   border: none; }
 
 .H-search-icon {
@@ -145,57 +142,6 @@ header{
     position: absolute;
 	right: 0.08rem;
 	top: 2.35rem;
-}
-.D-sign{
-	width:100%;
-	height:1rem;
-	padding:0.2rem 0.3rem;
-	box-sizing: border-box;
-}
-.D-sorry{
-	background-image: url(../img/D-img/D-search-4-22_03.png);
-	background-size:1.1rem;
-	background-position: center center;
-	background-repeat: no-repeat;
-	width: 1.1rem;
-    height: 0.6rem;
-    float:left;
-}
-.D-sorrybox{
-	width:5.2rem;
-	height:0.6rem;
-	margin-left:0.2rem;
-	padding-left:0.2rem;
-	box-sizing: border-box;
-	border-left:1px solid #E0E0E0;
-	float:left;
-}
-.D-sorrybox > div.D-sorry1{
-	color:#4f4f4f;
-	font-size: 0.24rem;
-}
-.D-sorrybox > div.D-sorry1 > span{
-	display: inline-block;
-	background-image: url(../img/D-img/D-hobby-nav1.png);
-	width:0.19rem;
-	height:0.09rem;
-	background-size:0.19rem;
-	margin-left:0.05rem;
-	margin-bottom:0.05rem;
-}
-.D-sorrybox > div.D-sorry2{
-	background-image: url(../img/D-img/D-sorry2.png);
-	background-size: 2.87rem;
-	width:1.36rem;
-	height:0.03rem;
-	margin-top:0.08rem;
-}
-.D-sorrybox > div.D-sorry3{
-	background-image: url(../img/D-img/D-sorry2.png);
-	background-size: 2.87rem;
-	width:2.87rem;
-	height:0.12rem;
-	margin-top:0.08rem;
 }
 /*标题*/
 div.D-title{
@@ -250,6 +196,11 @@ div.D-title > div:nth-child(4){
 }
 
 
+/*搜索*/
+.D-sousuo{
+	
+}
+
 .H-like-book-box {
   width: 100%;
   height: auto;
@@ -273,3 +224,104 @@ div.D-title > div:nth-child(4){
 .H-like-book-3 {
   background-image: url(../img/H-img/H-book-3.png);
   margin-left: 0.2rem; }
+  
+
+
+.H-renqi-main-box {
+  width: 7.02rem;
+  height: 1.5rem;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 0.04rem;
+  margin-top: 0.12rem;
+  position: relative;
+}
+
+.H-renqi-main-box .H-renqi-img-1 {
+  width: 0.8rem;
+  float: left;
+  margin-left: 0.24rem;
+  margin-top: 0.19rem;
+}
+
+.H-renqi-titleBox {
+  width: 3rem;
+  height: 0.6rem;
+  float: left;
+  position: relative;
+}
+
+.H-renqi-titleBox .title-1 {
+  display: block;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #2c3840;
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: 0.04rem;
+}
+
+.H-renqi-titleBox .title-2 {
+  display: block;
+  font-size: 0.2rem;
+  font-weight: bold;
+  float: left;
+  color: #39abf9;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.H-renqi-titleBox .title-3 {
+  display: block;
+  position: absolute;
+  width: 0.57rem;
+  height: 0.03rem;
+  background-image: url(../img/H-img/H-diandian.png);
+  background-size: 0.57rem;
+  background-repeat: no-repeat;
+  top: 0.46rem;
+  left: 0.2rem;
+}
+
+.H-renqi-data {
+  width: 3.04rem;
+  height: 0.56rem;
+  float: left;
+}
+
+.H-renqi-data .H-renqi-img-2 {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-top: 0.02rem;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-1 {
+  font-size: 0.24rem;
+  width: 1.16rem;
+  height: auto;
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.H-renqi-data .H-renqi-data-img {
+  background: url(../img/H-img/H-renqi-data.png);
+  width: 2.35rem;
+  height: 0.17rem;
+  background-size: 2.35rem;
+  float: left;
+  margin-left: 0.9rem;
+  margin-top: -0.1rem;
+}
+
+.H-renqi-hot {
+  width: 0.83rem;
+  height: 1.03rem;
+  background: url(../img/H-img/H-hot.png);
+  background-size: 0.83rem;
+  position: absolute;
+  right: 0.2rem;
+  top: -0.16rem;
+}
