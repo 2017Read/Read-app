@@ -197,6 +197,59 @@ header{
 	height:0.12rem;
 	margin-top:0.08rem;
 }
+/*标题*/
+div.D-title{
+	width:100%;
+	height:1.04rem;
+	padding:0.15rem;
+	box-sizing:border-box;
+	position: relative;
+}
+div.D-title > div:first-child{
+	background-image: url(../img/D-img/D-search-4-3.png);
+	background-size:1.09rem;
+	width:1.09rem;
+	height:0.09rem;
+	margin:0 auto;
+}
+div.D-title > div:nth-child(2){
+	font-size:0.28rem;
+	color:#14181b;
+	margin:0 auto;
+	width:3rem;
+	font-family: "微软雅黑";
+}
+div.D-title > div:nth-child(2) > span:nth-child(2){
+	color:#35e5db;
+}
+div.D-title > div:nth-child(3){
+	width:4rem;
+	margin:0 auto;
+	margin-top:-0.7rem;
+	margin-left:1.9rem;
+}
+div.D-title > div:nth-child(3) > span:nth-child(2n+1){
+	display: inline-block;
+	width:0.02rem;
+	height:0.07rem;
+	background:#E0E0E0;
+	margin-bottom:0.05rem;
+}
+div.D-title > div:nth-child(3) > span:nth-child(2n){
+	color:#14181b;
+	font-size: 0.24rem;
+}
+div.D-title > div:nth-child(4){
+	width:0.51rem;
+	height:0.24rem;
+	background-image: url(../img/D-img/D-search-4-4.png);
+	background-size: 0.51rem;
+	position:absolute;
+	right:0.3rem;
+	top:0.5rem;
+}
+
+
 .H-like-book-box {
   width: 100%;
   height: auto;

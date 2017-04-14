@@ -61,7 +61,7 @@ header{
 	bottom:0;
 	left: 0;
 	width:100%;
-	background: pink;
+	background: #fff;
 	height:1.68rem;
 }
 /*搜索条*/
@@ -75,6 +75,8 @@ header{
 	left: 0;
 	top: 0.1rem;
 	padding-top: 0.11rem;
+	border:2px solid #8EC4FA;
+	
 }
 
 #H-search {
@@ -84,7 +86,7 @@ header{
 	height: 0.36rem;
 	top: 0.11rem;
 	left: 0.7rem;
-	border: none;
+	border:none;
 
 }
 
