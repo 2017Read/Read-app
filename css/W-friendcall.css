@@ -8,6 +8,21 @@ body {
 	background: #F2F2F2;
 }
 
+#wrapper {
+	position: relative;
+	width:7.5rem;
+	height: 13.34rem;
+	overflow: hidden;
+	
+}
+
+#scroller {
+	height:3000px;
+	width:7.5rem;
+	/*margin:0 0.1rem;*/
+	position:absolute;
+	/*box-sizing: border-box;*/
+}
 
 /*header*/
 
@@ -16,7 +31,8 @@ header {
 	height: 2.2rem;
 	background: #1D89F7;
 	text-align: center;
-	position: relative;
+	position: fixed;
+	
 }
 
 .X-header-top {
@@ -24,23 +40,33 @@ header {
 	height: 0.4rem;
 	display: block;
 }
-
-.X-header-left {
-	width: 0.64rem;
-	width: 0.64rem;
-	float: left;
-	margin-top: 0.4rem;
-	margin-left: 0.24rem;
+.X-header-left-a{
+	width:0.64rem;
+	
+	height:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-left{
+	width:0.64rem;
+	display: block;
+	
+}
+.X-header-right-a{
+	height:0.64rem;
+	float:right;
+	width:0.64rem;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
 }
 
-.X-header-right {
-	width: 0.64rem;
-	width: 0.64rem;
-	float: right;
-	margin-top: 0.4rem;
-	margin-right: 0.24rem;
+.X-header-right{
+	width:0.64rem;
+	display: block;
+	
+	
 }
-
 .X-header-medium {
 	width: 7rem;
 	height: 0.24rem;
@@ -60,17 +86,19 @@ header {
 	top: 1rem;
 	margin: auto;
 }
-
+.W-index{
+	z-index: 1000;
+}
 .X-shop {
 	font-size: 18px;
 	color: #FFF;
 }
 
 .W-box {
-	width: auto;
+	width:94%;
 	height: 3.3rem;
 	/*background: pink;*/
-	margin: 0 0.24rem;
+	margin-left:0.24rem;
 	box-sizing: border-box;
 	position: absolute;
 	left: 0;
@@ -107,12 +135,13 @@ header {
 .W-font1>p {
 	font-size: 0.2rem;
 	margin-top: 0.15rem;
-	margin-bottom: 0;
+	margin-bottom:  0.05rem;
 	color: #666666;
+	
 }
 
 .W-dian {
-	width: 4.6rem;
+	height:0.03rem;
 	margin-top: -0.04rem;
 	display: block;
 }
@@ -127,14 +156,20 @@ header {
 	font-size: 0.12rem;
 	color: #979797;
 }
-
-.W-img2 {
+.W-img2-a{
 	width: 0.28rem;
+	/*height:100%;*/
 	float: left;
 	margin-top: 0.35rem;
 	margin-right: 0.2rem;
+	margin-bottom: 0.35rem;
+	
 }
 
+.W-img2{
+	width: 0.28rem;
+	display: block;
+}
 
 /*三个条结束*/
 
@@ -158,12 +193,13 @@ header {
 
 .W-calltop>div.W-fontone>p {
 	float: left;
+	/*font-weight: 500;*/
 }
 
 .W-calltop>div.W-fontone>span {
 	display: block;
-	color: #FFA750rem;
-	font-size: 0.3;
+	color: #FFA750;
+	font-size: 0.4rem;
 	float: left;
 	line-height: 0.32rem;
 }
@@ -188,7 +224,7 @@ header {
 }
 
 .W-calltop>img {
-	height: 0.25rem;
+	height: 0.15rem;
 	margin: 0 auto;
 	display: block;
 	/*margin-top: -0.05rem;*/
@@ -203,7 +239,7 @@ header {
 	margin: 0 auto;
 	position: relative;
 	left: 0;
-	top: 4.5rem;
+	top: 6.6rem;
 	padding-top: 0.11rem;
 }
 
@@ -257,6 +293,8 @@ header {
 	top: 8.5rem;
 	height: auto;
 	width: 100%;
+	/*margin-left: 0.2rem;*/
+	overflow: hidden;
 	/*background:pink;*/
 }
 .W-call-list>li{

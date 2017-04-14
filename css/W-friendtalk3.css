@@ -1,0 +1,140 @@
+
+body{
+background: #F2F2F2;
+
+}
+
+/*header*/
+header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+	text-align:center;
+	position:relative;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left{
+	width:0.64rem;
+	width:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-right{
+	width:0.64rem;
+	width:0.64rem;
+	float:right;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
+}
+
+
+
+.W-footer{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width:100%;
+	background: #fff;
+	height:5.45rem;
+}
+/*搜索条*/
+.H-search-box {
+	width: 7.02rem;
+	height: 0.49rem;
+	border-radius: 0.3rem;
+	background: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	top: 0.1rem;
+	padding-top: 0.11rem;
+	border:2px solid #8EC4FA;
+	
+}
+
+#H-search {
+	position: absolute;
+	display: block;
+	width: 5.3rem;
+	height: 0.36rem;
+	top: 0.11rem;
+	left: 0.7rem;
+	border:none;
+
+}
+
+.H-search-icon {
+	position: absolute;
+	width: 0.36rem;
+	height: 0.36rem;
+	top: 0.11rem;
+	left: 0.34rem;
+}
+
+.H-search-dian {
+	background: url(../img/H-img/H-main-dian.png);
+	background-size: 0.23rem;
+	width: 0.23rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0;
+	left: 0.04rem;
+}
+
+.H-search-yy {
+	background: url(../img/H-img/H-yy.png);
+	background-size: 0.7rem;
+	width: 0.7rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.11rem;
+}
+.W-footer>.W-talk-picture{
+	height:5rem;
+	margin-top: 0.2rem;
+
+}
+.W-footer>.W-talk-picture>img{
+	/*width:100%;*/
+	height:0.7rem;
+	margin: 0 auto;
+}
+
+.W-footer>.W-talk-picture>div{
+	height:3.7rem;
+	width:auto;
+	overflow: hidden;
+}
+.W-footer>.W-talk-picture>div>img{
+	width: 2.45rem;
+	margin: 0 auto;
+	float: left;
+}

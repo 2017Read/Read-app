@@ -16,7 +16,7 @@
 		<script src="../js/H-main-1.js"></script>
 		<script type="text/javascript" src="../js/iscroll.js"></script>
 	</head>
-	<body onload="loaded()" style="overflow: hidden;">
+	<body  style="overflow: hidden;">
 		<header>
 			<div class="H-top-title"></div>
 			<div class="H-top-box-1">
@@ -127,39 +127,39 @@
 						<div class="H-renqi-main-box">
 							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
 							<div class="H-renqi-titleBox">
-								<span class="title-1">间失格</span>
-								<span class="title-2">WORLDLOST</span>
+								<span class="title-1">风中凌乱</span>
+								<span class="title-2">THEWIND</span>
 								<span class="title-3"></span>
 							</div>
 							<div class="H-renqi-data">
 								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
-								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-1">CAO.DADA</div>
 								<div class="H-renqi-data-img"></div>
 							</div>
 						</div>
 						<div class="H-renqi-main-box">
 							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
 							<div class="H-renqi-titleBox">
-								<span class="title-1">间失格</span>
-								<span class="title-2">WORLDLOST</span>
+								<span class="title-1">笑看苍生</span>
+								<span class="title-2">MAYBELIVELI</span>
 								<span class="title-3"></span>
 							</div>
 							<div class="H-renqi-data">
 								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
-								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-1">YUAN.DATOU</div>
 								<div class="H-renqi-data-img"></div>
 							</div>
 						</div>
 						<div class="H-renqi-main-box">
 							<img src="../img/H-img/H-renqi-1.png"/ class="H-renqi-img-1">
 							<div class="H-renqi-titleBox">
-								<span class="title-1">间失格</span>
-								<span class="title-2">WORLDLOST</span>
+								<span class="title-1">神探夏洛克</span>
+								<span class="title-2">DETECTIVE</span>
 								<span class="title-3"></span>
 							</div>
 							<div class="H-renqi-data">
 								<img src="../img/H-img/H-head-img.png" alt="" class="H-renqi-img-2"/>
-								<div class="H-renqi-data-1">TAIZAI.ZHI</div>
+								<div class="H-renqi-data-1"></div>
 								<div class="H-renqi-data-img"></div>
 							</div>
 						</div>
@@ -197,41 +197,14 @@
 		
 		<!--底部-->
 		<footer>
-			<div class="H-bottom-1"></div>
+			<a  class="H-bottom-1"></a>
 			<div class="H-bottom-line"></div>
 			<div class="H-bottom-2"></div>
 			<div class="H-bottom-line"></div>
-			<div class="H-bottom-3"></div>
+			<a href="D-hobby.html" class="H-bottom-3"></a>
 			<div class="H-bottom-line"></div>
 			<div class="H-bottom-4"></div>
 		</footer>
 	</body>
-</html>
-<script type="text/javascript">
-	function isPassive() {
-    var supportsPassiveOption = false;
-    try {
-        addEventListener("test", null, Object.defineProperty({}, 'passive', {
-            get: function () {
-                supportsPassiveOption = true;
-            }
-        }));
-    } catch(e) {}
-    return supportsPassiveOption;
-}
-	function loaded () {
-	myScroll = new IScroll('#wrapper', {
-		scrollbars: true,
-		mouseWheel: true,
-		interactiveScrollbars: true,
-		shrinkScrollbars: 'clip',
-		fadeScrollbars: true,
-		resizeScrollbars:true,
-	});
-}
 
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
-	capture: false,
-	passive: false,
-} : false);
-</script>
+</html>

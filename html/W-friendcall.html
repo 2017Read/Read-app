@@ -15,20 +15,50 @@
 		<link rel="stylesheet" href="../common/css/common.css" />
 		<script src="../common/js/jquery.min.js"></script>
 		<script src="../common/js/common.js"></script>
+		<script src="../js/iscroll.js"></script>
+	<script>
+//		  实例化一个对象myScroll;
+		var myScroll;
+		window.onload=function(){
+			myScroll = new IScroll('#wrapper', {
+				mouseWheel:true,
+				
+			})
+		}
+
+		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+		//	capture: false,
+		//	passive: false
+		//} : false);
+		
+//		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+//			capture: false,
+//			passive: false
+//		} : false);
+		
+		
+		
+	</script>
 	</head>
 
 	<body>
+		
 		<header>
 			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
 			<div>
-				<img src="../img/x-img/X-2.png" alt="" class="X-header-left" />
+				<a href="" class="X-header-left-a">
+					<img src="../img/x-img/X-2.png" alt="" class="X-header-left"/>
+				</a>
 				<span class="X-shop">好友列表</span>
-				<img src="../img/x-img/X-3.png" alt="" class="X-header-right" />
+				<a href="" class="X-header-right-a">
+					<img src="../img/x-img/X-3.png" alt="" class="X-header-right"/>
+				</a>
 				<img src="../img/X-img/X-13.png" alt="" class="X-header-medium" />
 				<img src="../img/X-img/X-14.png" alt="" class="X-header-medium-two" />
 			</div>
 		</header>
-
+			<div id="wrapper">
+			<div id="scroller">
 		<ul class="W-box">
 			<li class="W-tiao">
 				<img class="W-img1" src="../img/W-img/W-friendcall1.png" alt="" />
@@ -36,12 +66,14 @@
 					<div class="W-font1">
 						<p>更改备注名称</p>
 					</div>
-					<img class="W-dian" src="../img/W-img/W-friendset-tiao.png" alt="" />
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao1.png" alt="" />
 					<div class="W-font2">
 						<p>CHANGE THE NOTE NAME</p>
 					</div>
 				</div>
-				<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				<a href="" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
 			</li>
 			<li class="W-tiao">
 				<img class="W-img1" src="../img/W-img/W-friendcall2.png" alt="" />
@@ -49,13 +81,15 @@
 					<div class="W-font1">
 						<p>更改好友分组</p>
 					</div>
-					<img class="W-dian" src="../img/W-img/W-friendset-tiao.png" alt="" />
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao2.png" alt="" />
 
 					<div class="W-font2">
 						<p>CHANGES TO THE GROUP</p>
 					</div>
 				</div>
-				<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				<a href="" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
 			</li>
 			<li class="W-tiao">
 				<img class="W-img1" src="../img/W-img/W-friendcall3.png" alt="" />
@@ -63,13 +97,15 @@
 					<div class="W-font1">
 						<p>设为特别关注</p>
 					</div>
-					<img class="W-dian" src="../img/W-img/W-friendset-tiao.png" alt="" />
+					<img class="W-dian" src="../img/W-img/W-friendcall-tiao3.png" alt="" />
 
 					<div class="W-font2">
 						<p>SET TO SPECTAL ATTENTION TO</p>
 					</div>
 				</div>
-				<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				<a href="" class="W-img2-a">
+					<img class="W-img2" src="../img/W-img/W-friendset6.png" alt="" />
+				</a>
 			</li>
 
 		</ul>
@@ -409,7 +445,17 @@
 				</div>
 			</li>
 		</ul>
-
+			</div>
+		</div>
 	</body>
 
 </html>
+<script type="text/javascript">
+	$(window).scroll(function(){
+			
+			$("header").addClass("W-index")
+//			console.log($("header"))
+			console.log(222)
+		})
+		
+</script>

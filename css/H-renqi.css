@@ -1,0 +1,100 @@
+/*header*/
+header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+	text-align:center;
+	position:relative;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left{
+	width:0.64rem;
+	width:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-right{
+	width:0.64rem;
+	width:0.64rem;
+	float:right;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
+}
+
+/*data*/
+
+.H-renqi-date{
+	width:4.04rem;
+	background-image:url(../img/H-img/H-renqi-date.png);
+	height:1.01rem;
+	background-size: 4.04rem ;
+	background-position: center center;
+	/*margin: 0 auto;*/
+	position: absolute;
+	top:1.8rem;
+	left:1.7rem;
+
+}
+.H-renqi-date>.H-renqi-datebox{
+	width:4.04rem;
+	height:1.01rem;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li{
+	width:0.63rem;
+	height:0.71rem;
+	/*background: red;*/
+	margin-top: 0.3rem;
+	float: left;
+	font-size: 0.2rem;
+	text-align: center;
+	margin-left: 0.65rem;
+	/*line-height: 1.01rem;*/
+	box-sizing: border-box;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li>img{
+	height:0.32rem;
+	display: block;
+}
+.H-renqi-date>.H-renqi-datebox>li.H-renqi-active{
+	width:0.76rem;
+	margin-top: 0.4rem;
+
+}
+/*年月日结束*/
+/*.H-renqi-date>.H-renqi-datebox>li:nth-child(2){
+
+	margin-top: 0.2rem;
+	
+}
+.H-renqi-date>.H-renqi-datebox>li>p:nth-child(2){
+	color: #AAAAAA;
+}*/
