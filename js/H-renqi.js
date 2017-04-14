@@ -15,9 +15,10 @@ $(function(){
 				break;
 				case 2:
 				jobj.html(`<img src="../img/H-img/H-renqi-month.png" alt="" />`)
-				jobj.prev('li').html(`<img src="../img/H-img/H-renqi-week.png" alt="" /> `)
+				jobj.prevAll('li').html(`<img src="../img/H-img/H-renqi-week.png" alt="" />`)
 			}
 			$('.H-main-renqi-box').removeClass('H-renqi-box-active').eq(index).addClass('H-renqi-box-active')
 		})
 	})
+	
 })
