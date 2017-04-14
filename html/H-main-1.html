@@ -221,7 +221,7 @@
 }
 	function loaded () {
 	myScroll = new IScroll('#wrapper', {
-		scrollbars: true,
+		
 		mouseWheel: true,
 		interactiveScrollbars: true,
 		shrinkScrollbars: 'clip',
@@ -229,7 +229,6 @@
 		resizeScrollbars:true,
 	});
 }
-
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
 	capture: false,
 	passive: false,

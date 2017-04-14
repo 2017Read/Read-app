@@ -6,7 +6,6 @@
                 if (!clientWidth) return;
                 if(clientWidth>=750){
                   // 这里的值取决于设计稿的宽度
-                  console.log(clientWidth)
                     docEl.style.fontSize = '100px';
                 }else{
                     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
@@ -17,6 +16,3 @@
         win.addEventListener(resizeEvt, recalc, false);
         doc.addEventListener('DOMContentLoaded', recalc, false);
     })(document, window);
-//<<<<<<< HEAD
-//=======
-//>>>>>>> 34fb28141a631e2e54b94d0342540935755f39cc

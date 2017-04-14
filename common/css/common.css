@@ -8,14 +8,14 @@ body{
 		-webkit-overflow-scrolling:touch;
 }
 *{
-		font-family: "helvetica";
+		font-family: "苹方";
 		max-height:9999999px;
 }
 
 body,header,section,ul,li,ol,dt,dd,p,input,h1,h2,h3,h4,h5,h6{
 	margin:0px;
 	padding:0px;
-	font-family:"Hekvetica", "sans-serif";
+	font-family:"苹方", "sans-serif";
 }
 a{
 	text-decoration:none;

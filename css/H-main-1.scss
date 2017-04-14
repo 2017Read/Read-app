@@ -121,7 +121,7 @@ header{
 .H-head-text-title{
     float: left;
     font-size: 0.3rem;
-    font-family: '微软雅黑';
+    font-family: '苹方';
     width: 0.6rem;
     height: 0.3rem;
     margin:{
@@ -180,7 +180,7 @@ header{
 }
 //底部
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
