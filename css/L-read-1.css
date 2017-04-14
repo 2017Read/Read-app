@@ -1,0 +1,137 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+body {
+  background: #F2F2F2;
+  font-weight: normal;
+  font-family: "苹方";
+  position:relative;
+}
+
+/*X-header*/
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  
+}
+header .X-header-left {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
+}
+
+header .X-header-right {
+  width: 0.54rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
+}
+
+header .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header .X-shop {
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+}
+section{
+	width:100%;
+	height:10.14rem;
+	background:#F2F2F2;
+	overflow:hidden;
+}
+section>p{
+	width:100%;
+	height:100%;
+}
+
+
+
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:1rem;
+}
+footer>ul{
+	width:100%;
+	height:1rem;
+	display:flex;
+	justify-content:space-around;
+}
+footer>ul>li{
+	height:1rem;
+}
+footer>ul>li>img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	/* Prevent native touch events on Windows */
+	-ms-touch-action: none;
+
+	/* Prevent the callout on tap-hold and text selection */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Prevent text resize on orientation change, useful for web-apps */
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller {
+	position: absolute;
+
+	/* Prevent elements to be highlighted on tap */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	/* Put the scroller into the HW Compositing layer right from the start */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	font-size:15px;
+line-height:20px;
+}
