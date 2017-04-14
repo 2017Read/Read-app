@@ -8,6 +8,21 @@ body {
 	background: #F2F2F2;
 }
 
+#wrapper {
+	position: relative;
+	width:7.5rem;
+	height: 13.34rem;
+	overflow: hidden;
+	
+}
+
+#scroller {
+	height:3000px;
+	width:7.5rem;
+	/*margin:0 0.1rem;*/
+	position:absolute;
+	/*box-sizing: border-box;*/
+}
 
 /*header*/
 
@@ -16,7 +31,8 @@ header {
 	height: 2.2rem;
 	background: #1D89F7;
 	text-align: center;
-	position: relative;
+	position: fixed;
+	
 }
 
 .X-header-top {
@@ -60,17 +76,19 @@ header {
 	top: 1rem;
 	margin: auto;
 }
-
+.W-index{
+	z-index: 1000;
+}
 .X-shop {
 	font-size: 18px;
 	color: #FFF;
 }
 
 .W-box {
-	width: auto;
+	width:94%;
 	height: 3.3rem;
 	/*background: pink;*/
-	margin: 0 0.24rem;
+	margin-left:0.24rem;
 	box-sizing: border-box;
 	position: absolute;
 	left: 0;
@@ -203,7 +221,7 @@ header {
 	margin: 0 auto;
 	position: relative;
 	left: 0;
-	top: 4.5rem;
+	top: 6.6rem;
 	padding-top: 0.11rem;
 }
 
@@ -257,6 +275,8 @@ header {
 	top: 8.5rem;
 	height: auto;
 	width: 100%;
+	/*margin-left: 0.2rem;*/
+	overflow: hidden;
 	/*background:pink;*/
 }
 .W-call-list>li{

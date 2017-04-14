@@ -15,9 +15,34 @@
 		<link rel="stylesheet" href="../common/css/common.css" />
 		<script src="../common/js/jquery.min.js"></script>
 		<script src="../common/js/common.js"></script>
+		<script src="../js/iscroll.js"></script>
+	<script>
+//		  实例化一个对象myScroll;
+		var myScroll;
+		window.onload=function(){
+			myScroll = new IScroll('#wrapper', {
+				mouseWheel:true,
+				
+			})
+		}
+
+		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+		//	capture: false,
+		//	passive: false
+		//} : false);
+		
+//		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+//			capture: false,
+//			passive: false
+//		} : false);
+		
+		
+		
+	</script>
 	</head>
 
 	<body>
+		
 		<header>
 			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
 			<div>
@@ -28,7 +53,8 @@
 				<img src="../img/X-img/X-14.png" alt="" class="X-header-medium-two" />
 			</div>
 		</header>
-
+			<div id="wrapper">
+			<div id="scroller">
 		<ul class="W-box">
 			<li class="W-tiao">
 				<img class="W-img1" src="../img/W-img/W-friendcall1.png" alt="" />
@@ -409,7 +435,17 @@
 				</div>
 			</li>
 		</ul>
-
+			</div>
+		</div>
 	</body>
 
 </html>
+<script type="text/javascript">
+	$(window).scroll(function(){
+			
+			$("header").addClass("W-index")
+//			console.log($("header"))
+			console.log(222)
+		})
+		
+</script>
