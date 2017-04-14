@@ -1,4 +1,3 @@
-	<script type="text/javascript">
 	function isPassive() {
     var supportsPassiveOption = false;
     try {
@@ -24,4 +23,6 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
 	capture: false,
 	passive: false,
 } : false);
-</script>
+window.onload=function(){
+	loaded()
+}
