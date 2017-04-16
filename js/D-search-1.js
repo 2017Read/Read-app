@@ -38,8 +38,37 @@ window.onload=function(){
 	})
 	
 	
-	
-	
-	
+//	语音
+	$(".H-search-yy").click(function(){
+		$(".D-zhao").css("display","block")
+	})
+	$(".D-zhaobox .W-talk-voice>div.D-zhaoimg2").click(function(){
+		$(".D-zhaobox .W-talk-voice>p:first-child").html("").html("正在录音");
+		$(".D-zhaobox .W-talk-voice>p:last-of-type").html("").html("松开话筒以结束");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg").css("display","none");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg1").css("display","block");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg2").css("display","none");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg3").css("display","block");
+	})
+	$(".D-zhaobox .W-talk-voice>div.D-zhaoimg3").click(function(){
+		$(".D-zhaobox").css("display","none");
+		$(".D-zhaobox1").css("display","block");
+	})
+	$(".D-zhaobox1 .W-talk-voice>div.D-zhaoimg2").click(function(){
+		$(".D-zhaobox1").css("display","none");
+		$(".D-zhaobox").css("display","block");
+		$(".D-zhaobox .W-talk-voice>p:first-child").html("").html("开始录音");
+		$(".D-zhaobox .W-talk-voice>p:last-of-type").html("").html("按住话筒以开始");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg1").css("display","none");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg").css("display","block");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg3").css("display","none");
+		$(".D-zhaobox .W-talk-voice > div.D-zhaoimg2").css("display","block");
+	})
+	$(".D-zhaobox1 .W-talk-voice>div.D-zhaoimg3").click(function(){
+		$(".D-zhao").css("display","none")
+	})
+	$(".D-x").click(function(){
+		$(".D-zhao").css("display","none")
+	})
 	
 }
