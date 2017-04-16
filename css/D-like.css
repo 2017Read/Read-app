@@ -126,45 +126,58 @@ header{
 }
 .D-wenzibox{
 	width:4.2rem;
-	height:auto;
+	height:3rem;
 	margin:0 auto;
+	margin-top:0.5rem;
 }
 .D-wenzibox > div.D-zi1{
 	width:100%;
-	height:auto;
+	height:0.45rem;
 }
 .D-wenzibox > div.D-zi1 > span:first-child{
+	display: block;
+	float:left;
 	font-size:0.4rem;
 	font-weight:bold;
 	color:#2e363c;
 }
 .D-wenzibox > div.D-zi1 > span:last-child{
+	display: block;
+	float:left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
 	font-size: 0.26rem;
 	font-weight:normal;
 	color:#151719;
 }
 .D-wenzibox > div.D-zi2{
 	width:100%;
-	height:auto;
-	margin-top:-0.6rem;
+	height:0.4rem;
+	margin-top:0.1rem;
 }
 .D-wenzibox > div.D-zi2 > span:first-child{
+	display: block;
+	float:left;
+	margin-left:-2.5rem;
 	font-size:0.36rem;
 	font-weight:bold;
 	color:#2e9fef;
 }
 .D-wenzibox > div.D-zi2 > span:last-child{
+	display: block;
+	float:left;
+	margin-left:-1.15rem;
 	font-size: 0.36rem;
 	font-weight:normal;
 	color:#2e9fef;
-	margin-left:-0.27rem;
 }
 .D-wenzibox > div.D-zi3{
 	width:100%;
-	height:auto;
-	margin-top:-0.6rem;
+	height:0.73rem;
+	margin-top:0.2rem;
 }
 .D-wenzibox > div.D-zi3 > span:first-child{
+	display: block;
 	font-size:0.22rem;
 	color:#2e363c;
 }
@@ -176,7 +189,8 @@ header{
 .D-wenzibox > div.D-zi4{
 	width:120%;
 	height:0.55rem;
-	margin-top:0.3rem;
+	margin-top:0.25rem;
+	margin-left:-0.15rem;
 	position:relative;
 }
 .D-wenzibox > div.D-zi4 > div.D-touxiang{
