@@ -3,13 +3,11 @@ html {
   font-size: 50px;
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
   background: #F2F2F2;
   font-weight: normal;
   font-family: "苹方";
@@ -1767,33 +1765,7 @@ ul.X-shop-ul li .circle {
   margin: auto;
 }
 
-.X-move-to {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.X-move-to ul {
-  width: 7.02rem;
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1.8rem;
-  margin: auto;
-  z-index: 2;
-}
-
-.X-move-to ul li {
-  width: 7.02rem;
-  height: 1rem;
-  border-radius: 0.1rem;
-  background: #FFF;
-  margin-bottom: 0.1rem;
-}
-
-.X-move-to ul li div.X-move {
+.X-move {
   width: 7.02rem;
   height: 1rem;
   font-size: 0.12rem;
@@ -1802,28 +1774,28 @@ ul.X-shop-ul li .circle {
   position: relative;
 }
 
-.X-move-to ul li div.X-move h1 {
+.X-move h1 {
   margin-left: 0.24rem;
   margin-top: 0.15rem;
   margin-bottom: 0.1rem;
 }
 
-.X-move-to ul li div.X-move h1 span {
+.X-move h1 span {
   font-size: 0.18rem;
   color: #797979;
 }
 
-.X-move-to ul li div.X-move h2 {
+.X-move h2 {
   margin-left: 0.24rem;
   margin-top: 0.1rem;
 }
 
-.X-move-to ul li div.X-move h2 span {
+.X-move h2 span {
   font-size: 0.12rem;
   color: #C0C0C0;
 }
 
-.X-move-to ul li div.X-move img {
+.X-move img {
   width: 0.48rem;
   height: 0.06rem;
   position: absolute;
@@ -1841,33 +1813,7 @@ ul.X-shop-ul li .circle {
   margin: auto;
 }
 
-.X-history-record {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.X-history-record ul {
-  width: 7.02rem;
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1.8rem;
-  margin: auto;
-  z-index: 2;
-}
-
-.X-history-record ul li {
-  width: 7.02rem;
-  height: 1rem;
-  border-radius: 0.1rem;
-  background: #FFF;
-  margin-bottom: 0.1rem;
-}
-
-.X-history-record ul li div.X-history {
+.X-history {
   width: 7.02rem;
   height: 1rem;
   font-size: 0.12rem;
@@ -1875,18 +1821,18 @@ ul.X-shop-ul li .circle {
   overflow: hidden;
 }
 
-.X-history-record ul li div.X-history h1 {
+.X-history h1 {
   margin-left: 0.24rem;
   margin-top: 0.15rem;
 }
 
-.X-history-record ul li div.X-history h1 span {
+.X-history h1 span {
   font-size: 0.12rem;
   color: #797979;
   font-family: normal;
 }
 
-.X-history-record ul li div.X-history .X-history-imgs {
+.X-history .X-history-imgs {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -1894,13 +1840,13 @@ ul.X-shop-ul li .circle {
   margin-top: 0.15rem;
 }
 
-.X-history-record ul li div.X-history .X-history-imgs img {
+.X-history .X-history-imgs img {
   display: block;
   width: 1.60rem;
   height: 0.24rem;
 }
 
-.X-history-record ul li div.X-history .X-history-two {
+.X-history .X-history-two {
   display: block;
   width: 0.48rem;
   height: 0.06rem;
@@ -1920,51 +1866,19 @@ ul.X-shop-ul li .circle {
   margin: auto;
 }
 
-.X-personal-clooection {
-  width: 7.02rem;
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  left: -0.1rem;
-  right: 0;
-  top: 1.8rem;
-  margin: auto;
-  z-index: 5;
-}
-
-.X-personal-clooection ul {
-  width: 7.02rem;
-  height: auto;
-  overflow: hidden;
-}
-
-.X-personal-clooection ul li {
-  width: 7.02rem;
-  height: 3.6rem;
-  margin-bottom: 0.2rem;
-}
-
-.X-personal-clooection ul li .X-personal {
+.X-personal {
   width: 2.2rem;
   height: 3.6rem;
   float: left;
   position: relative;
 }
 
-.X-personal-clooection ul li > div:nth-child(1) {
-  margin-right: 0.21rem;
-}
-
-.X-personal-clooection ul li > div:nth-child(2) {
-  margin-right: 0.21rem;
-}
-
-.X-personal-clooection ul li .X-personal .X-personal-one {
+.X-personal .X-personal-one {
   width: 2.2rem;
   height: 100%;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-two {
+.X-personal .X-personal-two {
   width: 1.6rem;
   height: 2.1rem;
   position: absolute;
@@ -1974,7 +1888,7 @@ ul.X-shop-ul li .circle {
   margin: auto;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-three {
+.X-personal .X-personal-three {
   width: 0.37rem;
   height: 0.37rem;
   position: absolute;
@@ -1982,7 +1896,7 @@ ul.X-shop-ul li .circle {
   top: 1.97rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section {
+.X-personal .X-personal-section {
   width: 100%;
   height: 1.36rem;
   position: absolute;
@@ -1992,13 +1906,13 @@ ul.X-shop-ul li .circle {
   margin: auto;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-one {
+.X-personal .X-personal-section .X-personal-div-one {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-one span {
+.X-personal .X-personal-section .X-personal-div-one span {
   float: left;
   font-size: 0.12rem;
   font-weight: bold;
@@ -2006,11 +1920,11 @@ ul.X-shop-ul li .circle {
   margin-top: 0.2rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-one span:nth-child(1) {
+.X-personal .X-personal-section .X-personal-div-one span:nth-child(1) {
   margin-left: 0.14rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-one img {
+.X-personal .X-personal-section .X-personal-div-one img {
   float: left;
   width: 0.12rem;
   height: 0.13rem;
@@ -2019,13 +1933,13 @@ ul.X-shop-ul li .circle {
   margin-right: 0.05rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-two {
+.X-personal .X-personal-section .X-personal-div-two {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-two img {
+.X-personal .X-personal-section .X-personal-div-two img {
   display: block;
   width: 0.82rem;
   height: 0.06rem;
@@ -2033,37 +1947,37 @@ ul.X-shop-ul li .circle {
   margin-top: 0.04rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-two span {
+.X-personal .X-personal-section .X-personal-div-two span {
   float: left;
   font-size: 0.12rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-two span:nth-child(2) {
+.X-personal .X-personal-section .X-personal-div-two span:nth-child(2) {
   margin-left: 0.14rem;
   color: #7B8085;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-two span:nth-child(3) {
+.X-personal .X-personal-section .X-personal-div-two span:nth-child(3) {
   margin-left: 0.05rem;
   color: #585E63;
   font-weight: bold;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-three {
+.X-personal .X-personal-section .X-personal-div-three {
   width: 100%;
   height: auto;
   overflow: hidden;
   margin-top: 0.04rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-three img {
+.X-personal .X-personal-section .X-personal-div-three img {
   display: block;
   width: 0.18rem;
   height: 0.18rem;
   float: left;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-three img:nth-child(1) {
+.X-personal .X-personal-section .X-personal-div-three img:nth-child(1) {
   display: block;
   width: 0.18rem;
   height: 0.18rem;
@@ -2071,13 +1985,13 @@ ul.X-shop-ul li .circle {
   margin-left: 0.14rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-four {
+.X-personal .X-personal-section .X-personal-div-four {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-four span:nth-child(2) {
+.X-personal .X-personal-section .X-personal-div-four span:nth-child(2) {
   display: block;
   width: 0.56rem;
   height: auto;
@@ -2088,7 +2002,7 @@ ul.X-shop-ul li .circle {
   margin-top: 0.05rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-four span:nth-child(4) {
+.X-personal .X-personal-section .X-personal-div-four span:nth-child(4) {
   display: block;
   width: 0.7rem;
   height: auto;
@@ -2099,7 +2013,7 @@ ul.X-shop-ul li .circle {
   margin-top: 0.05rem;
 }
 
-.X-personal-clooection ul li .X-personal .X-personal-section .X-personal-div-four img {
+.X-personal .X-personal-section .X-personal-div-four img {
   display: block;
   width: 0.45rem;
   height: 0.4rem;
@@ -2193,7 +2107,7 @@ header.X-personal-header .X-header-color .X-right-personal a .X-right-personal-c
   position: absolute;
   left: 0;
   right: 0;
-  top: 6.9rem;
+  top: 7rem;
   margin: auto;
 }
 
