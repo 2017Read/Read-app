@@ -16,6 +16,8 @@
 		<script src="../common/js/jquery.min.js"></script>
 		<script src="../common/js/common.js"></script>
 		<script src="../js/iscroll.js"></script>
+		<script src="../js/W-friendcall.js"></script>
+		
 	<script>
 //		  实例化一个对象myScroll;
 		var myScroll;
@@ -24,6 +26,13 @@
 				mouseWheel:true,
 				
 			})
+			div.addEventListener("mousewheel",function(){
+				
+				$('header').addClass("W-index")
+			})
+//				alert(1)
+			
+	
 		}
 
 		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {

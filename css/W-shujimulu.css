@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body{
+	background: #F2F2F2;
+
+}
+a{
+	display: block;
+	width:100%;
+	height:auto;
+}
+/*header*/
+header{
+	width:100%;
+	height:2.2rem;
+	background:#1D89F7;
+	text-align:center;
+	position:fixed;
+}
+.X-header-top{
+	width:100%;
+	height:0.4rem;
+	display:block;
+}
+.X-header-left-a{
+	width:0.64rem;
+	
+	height:0.64rem;
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.24rem;
+}
+.X-header-left{
+	width:0.64rem;
+	display: block;
+	
+}
+.X-header-right-a{
+	height:0.64rem;
+	float:right;
+	width:0.64rem;
+	margin-top:0.4rem;
+	margin-right:0.24rem;
+}
+
+.X-header-right{
+	width:0.64rem;
+	display: block;
+	
+	
+}
+.X-header-medium{
+	width:7rem;
+	height:0.24rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1.3rem;
+	margin:auto;
+}
+.X-header-medium-two{
+	width:1.2rem;
+	height:0.36rem;
+	position:absolute;
+	left:-0.1rem;
+	right:0;
+	top:1rem;
+	margin:auto;
+}
+.X-shop{
+	font-size:18px;
+	color:#FFF;
+	text-align: center;
+}
