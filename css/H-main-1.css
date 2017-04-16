@@ -294,12 +294,18 @@ footer {
   background: rgba(54, 155, 227, 0.8);
   position: absolute;
   left: 50%;
-  top: 2.88rem;
+  top: 3.4rem;
   margin-left: 0rem;
-   line-height: 0.2rem;
+  line-height:0rem;
   z-index: 30;
 }
-
+.H-banner-dian-box > span{
+	display: block;
+	margin-left: 0.1rem;
+	margin-top: 0.02rem;
+	float: left;
+	background: #FFFFFF;
+}
 .H-banner-dian-box > li {
   width: 0.08rem;
   height: 0.08rem;
