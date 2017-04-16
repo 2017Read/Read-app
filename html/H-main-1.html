@@ -10,9 +10,11 @@
 		<meta name="full-screen" content="yes">
 		<meta name="format-detection" content="telephone=no, email=no" />
 		<script src="../common/js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/css/swiper.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../common/css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/H-main-1.css"/>
 		<script type="text/javascript" src="../common/js/common.js"></script>
+		<script src="../common/js/jquery.min.js"></script>
 		<script src="../js/H-main-1.js"></script>
 		<script type="text/javascript" src="../js/iscroll.js"></script>
 		<script type="text/javascript" src="../js/swiper.min.js"></script>
@@ -46,28 +48,34 @@
 				<!--banner开始-->
 				<div class="H-main-banner">
 					<div class="H-banner-box">
+						<!--轮播点-->
 						<ul class="H-banner-dian-box">
-							<li class="H-active"></li>
+							<!--<li class="H-active"></li>
 							<li></li>
 							<li></li>
-							<li></li>
+							<li></li>-->
 						</ul>
 						<div class="H-banner-background-img"></div>
-						<a href="" class="H-banner-1">
-							<div class="H-banner-cover">
-								<div class="H-banner-head"></div>
+						<div class="H-swiper-box">
+							<div class="swiper-wrapper">
+								<a href="" class="H-banner-1 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
+								<a href="" class="H-banner-1 H-banner-active-2 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
+								<a href="" class="H-banner-1 swiper-slide">
+									<div class="H-banner-cover">
+										<div class="H-banner-head"></div>
+									</div>
+								</a>
 							</div>
-						</a>
-						<a href="" class="H-banner-1 H-banner-active-2">
-							<div class="H-banner-cover">
-								<div class="H-banner-head"></div>
-							</div>
-						</a>
-						<a href="" class="H-banner-1">
-							<div class="H-banner-cover">
-								<div class="H-banner-head"></div>
-							</div>
-						</a>
+						</div>
+							
 						<div class="H-banner-explain-box">
 							<div class="H-banner-explain-img"></div>
 							<div class="H-banner-explain-text">
@@ -211,3 +219,10 @@
 		</footer>
 	</body>
 </html>
+  <script>
+    var swiper = new Swiper('.H-swiper-box', {
+        pagination: '.H-banner-dian-box',
+//      paginationClickable: false,
+        spaceBetween:20	
+    });
+    </script>

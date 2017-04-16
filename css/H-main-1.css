@@ -274,7 +274,7 @@ footer {
   width: 6.31rem;
   height: 0.45rem;
   position: absolute;
-  top: -0.44rem;
+  top: -0.24rem;
   left: 0.7rem;
   z-index: 8;
 }
@@ -283,7 +283,8 @@ footer {
   width: 6.4rem;
   height: 5.2rem;
   position: relative;
-  padding-left: 0.6rem;
+  padding-left: 0.75rem;
+  overflow: hidden;
 }
 
 .H-banner-dian-box {
@@ -295,6 +296,7 @@ footer {
   left: 50%;
   top: 2.88rem;
   margin-left: 0rem;
+   line-height: 0.2rem;
   z-index: 30;
 }
 
@@ -306,6 +308,7 @@ footer {
   float: left;
   margin-left: 0.06rem;
   margin-top: 0.06rem;
+ 
 }
 
 .H-banner-dian-box > li.H-active {
@@ -320,21 +323,25 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 6.4rem;
-  position: absolute;
-  top: 0;
+  margin-top: 0.2rem;
+  /*position: absolute;
+  top: 0.2rem;
   left: 0.6rem;
-  z-index: 10;
+  z-index: 10;*/
 }
 
 .H-banner-cover {
   background: rgba(0, 0, 0, 0.3);
-  width: 6.25rem;
-  margin-top: 0.02rem;
-  margin-left: 0.04rem;
+  width: 100%;
+
   height: 0.52rem;
   border-radius: 3px 3px;
 }
-
+.H-swiper-box{
+	width: 300%;
+	height: 100%;
+	overflow: hidden;
+}
 .H-banner-head {
   background-image: url("../img/H-img/banner/2.png");
   background-position: center;
@@ -351,7 +358,7 @@ footer {
   width: 5.56rem;
   height: 1.63rem;
   position: absolute;
-  top: 3.04rem;
+  top: 3.34rem;
   left: 0.9rem;
   overflow: hidden;
   z-index: 20;

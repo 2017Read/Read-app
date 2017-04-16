@@ -35,7 +35,11 @@
 				})
 			})
 		}
-		
+		var swiper = new Swiper('.H-swiper-box', {
+        pagination: '.H-banner-dian-box',
+//      paginationClickable: false,
+        spaceBetween:20	
+    });
 	</script>
 	<style>
 		#wrapper {
@@ -60,7 +64,7 @@
 	</style>
 	<body>
 		<!--头部-->
-		<header>
+		<header style="position: fixed;">
 			<div class="H-top-title"></div>
 			<div class="H-top-box-1">
 				<div class="H-head-img"></div>
@@ -77,7 +81,7 @@
 			</div>
 		</header>
 		<!--banner开始-->
-		<div class="H-iscioll-main">
+		<div class="H-iscioll-main" style="margin-top: 1rem;">
 			<div class="H-main-banner">
 				
 			</div>	
@@ -352,7 +356,7 @@
 			</div>
 		</div>	
 		<!--底部-->
-		<footer>
+		<footer style="position: fixed;">
 			<a href="H-main-1.html" class="H-bottom-1"></a>
 			<div class="H-bottom-line"></div>
 			<div class="H-bottom-2"></div>
