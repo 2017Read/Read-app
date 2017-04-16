@@ -15,12 +15,23 @@ header{
 	height:0.4rem;
 	display:block;
 }
+a.D-left1{
+	display: block;
+	width:0.64rem;
+	width:0.64rem;
+}
 .X-header-left{
 	width:0.64rem;
 	width:0.64rem;
 	float:left;
 	margin-top:0.4rem;
 	margin-left:0.24rem;
+}
+a.D-left2{
+	display: block;
+	width:0.64rem;
+	width:0.64rem;
+	float: right;
 }
 .X-header-right{
 	width:0.64rem;
@@ -47,10 +58,22 @@ header{
 	top:1rem;
 	margin:auto;
 }
-.X-shop{
-	font-size:18px;
-	color:#FFF;
+header > div .X-shop {
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
 }
+
+
+
 .H-top-box-2 {
   width: 100%;
   height: 0.7rem;
