@@ -7,6 +7,7 @@ window.onload=function(){
 		shrinkScrollbars: 'clip',
 		fadeScrollbars: true,
 		resizeScrollbars:true,
+		click:true
 	});
 	
 	$('.D-title > div:nth-child(4)').click(function(){
