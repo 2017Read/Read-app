@@ -16,15 +16,16 @@
 		<script src="../common/js/jquery.min.js"></script>
 		<script src="../common/js/common.js"></script>
 		<script src="../common/js/swiper.min.js"></script>
+		<script src="../js/iscroll.js"></script>
 	</head>
 
-	<body>
+	<body onload="loaded()">
 		<header>
 			<!--<img src="../img/X-1.png" alt="" class="X-header-top"/>-->
 			<div>
 				<section class="X-left-section">
 					<a href="W-friendcall.html">
-						<img src="../img/x-img/X-2.png" alt="" class="X-header-left"/>
+						<img src="../img/H-img/head/H-head-1.png" alt="" class="X-header-left"/>
 					</a>
 				</section>
 				<span class="X-shop">校园资讯</span>
@@ -40,6 +41,9 @@
 				<img src="../img/X-img/X-14.png" alt="" class="X-header-medium-two"/>
 			</div>
 		</header>
+		
+		<div id="wrapper">
+		
 		<div id="W-scroll">
 			<div class="W-school-banner swiper-container">
 				<ul class="W-school-bannerbox  swiper-wrapper">
@@ -175,7 +179,7 @@
 					
 				</div>
 			</ul>
-
+			</div>
 		</div>
 		
 		<!--底部-->
@@ -205,6 +209,7 @@
     pagination: '.W-school-banner .swiper-pagination',
     paginationClickable: true,
     centeredSlides: true,
+    slidesPerView:1,
     autoplay: 2500,
     autoplayDisableOnInteraction: false,
     paginationType: 'fraction',
@@ -219,4 +224,16 @@
         slidesPerView: 1,
         spaceBetween:13,
     });
+    
+   
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper');
+}
+
+//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+//	capture: false,
+//	passive: false
+//} : false);
+
 </script>

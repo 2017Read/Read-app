@@ -1,6 +1,6 @@
 $(function(){
 	$('.H-renqi-datebox').children('li').each(function(index,val){
-		let jobj=$(val);
+		var jobj=$(val);
 		val.addEventListener('touchstart',function(){
 			
 			switch(index){

@@ -201,8 +201,8 @@ header > div .X-shop {
 	position: absolute;
 
 }
-ul.W-school-bannerbox{
-	width: 100%;
+/*ul.W-school-bannerbox{
+	width:500%;
 	height:4.15rem;
 	position:relative;
 	top:0;
@@ -218,14 +218,14 @@ ul.W-school-bannerbox>li{
 	top:0;*/
 	/*left:2.4rem;*/
 
-}
-ul.W-school-bannerbox>li>a{
+
+/*ul.W-school-bannerbox>li>a{
 	width: 7.5rem;
 	height:4.15rem;
 	display: block;
 	float: left;
 	
-}
+}*/
 ul.W-school-bannerbox>li>a>img{
 	width: 7.5rem;
 	height:4.15rem;

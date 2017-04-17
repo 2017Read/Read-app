@@ -1,13 +1,13 @@
 'use strict'
 $(function(){
-	let X_shop_seven_rect=$('.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-rect');
+	var X_shop_seven_rect=$('.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-rect');
 //	console.log(X_shop_seven_rect);
 	
 	
-	let X_shop_seven_circle=$('.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-circle');
+	var X_shop_seven_circle=$('.X-shop-seven-pasword .X-shop-seven-rect-all .X-shop-seven-rect-one .X-shop-seven-circle');
 //	console.log(X_shop_seven_circle);
 	
-	let X_shop_seven_input=$('.X-shop-seven-pasword form input');
+	var X_shop_seven_input=$('.X-shop-seven-pasword form input');
 //	console.log(X_shop_seven_input);
 	
 	
