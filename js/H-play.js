@@ -3,6 +3,8 @@ $(document).ready(function(){
 	$('.H-icon-center').on('touchstart',function(){
 		if(audio.paused){
 			audio.play();
+		}else{
+			audio.pause();
 		}
 
 	})
