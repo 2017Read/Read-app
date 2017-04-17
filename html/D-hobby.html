@@ -225,6 +225,7 @@
 		window.onload=function(){			
 			myScroll=new IScroll("#wrapper", {
 				scrollbars: true,
+				click:true,
 				mouseWheel: true,
 				interactiveScrollbars: true,
 				shrinkScrollbars: 'clip',
@@ -307,7 +308,8 @@
 				<div class="H-search-box">
 					<div class="H-search-dian"></div>
 					<img src="../img/H-img/H-search-icon.png" class="H-search-icon"/>
-					<input type="text" placeholder="Search" name="search" id="H-search" value="" />
+					<input type="text" name="search" id="H-search" value="" />
+					<a href="D-search-1.html" id="H-search" value="" style="font-size: 0.18rem; color: #333333;">Search</a>
 					<div class="H-search-yy"></div>
 				</div>				
 			</div>
@@ -351,7 +353,6 @@
 			</ul>
 		</div>
 		<div class="D-tiao"></div>
-		
 				<div class="D-box D-xian">
 					<div class="H-renqi-main-box">
 						<div class="H-renqi-hot"></div>
@@ -586,9 +587,8 @@
 	<script>
 	var swiper = new Swiper('.H-swiper-box', {
         pagination: '.H-banner-dian-box',
-//      paginationClickable: false,
         spaceBetween:20	,
-        click:true
+       
     });
 	</script>
 </html>
