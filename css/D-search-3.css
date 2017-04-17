@@ -98,7 +98,7 @@ header > div .X-shop {
   margin-left: 2.3rem; }
 
 .H-top-main-text-1 {
-  background-image: url("../img/H-img/head/H-head-5.png");
+  background-image: url("../img/D-img/D-top-text (1).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1.3rem;
@@ -108,13 +108,8 @@ header > div .X-shop {
   margin-left: 0.08rem;
   margin-top: 0.06rem; }
 
-.H-top-main-text-1 > a{
-	display: block;
-	width:100%;
-	height:100%;
-}
 .H-top-main-text-2 {
-  background-image: url("../img/H-img/head/H-head-6.png");
+  background-image: url("../img/D-img/D-top-text (2).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 0.93rem;
@@ -123,12 +118,7 @@ header > div .X-shop {
   margin-top: 0.06rem;
   margin-right: 0.3rem;
   float: right; }
- 
- .H-top-main-text-2 > a{
-	display: block;
-	width:100%;
-	height:100%;
-} 
+  
 .H-search-box {
   width: 5.76rem;
   height: 0.49rem;
