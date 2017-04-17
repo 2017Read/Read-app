@@ -94,8 +94,6 @@ form{
 	height:0.49rem;
 	display:block;
 }
-
-
 .write > li:nth-child(4){
 	margin-top:0.4rem;
 	height:0.49rem;
@@ -108,7 +106,12 @@ form{
 	float:left;
 	position:relative;
 }
-.write > li:nth-child(4) >div:nth-child(-n+2)>img{
+.write > li:nth-child(4) >div:nth-child(-n+2)>a{
+	display:block;
+	width:auto;
+	height:auto;
+}
+.write > li:nth-child(4) >div:nth-child(-n+2)>a>img{
 	width:1.4rem;
 	height:0.49rem;
 	display:block;

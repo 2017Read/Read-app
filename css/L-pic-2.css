@@ -54,7 +54,11 @@ div.pic,.shadow{
 	z-index:10;
 	display:none;
 }
-.shadow>img{
+.shadow>a{
+	width:100%;
+	height:100%;
+}
+.shadow>a>img{
 	width:100%;
 	height:100%;
 }

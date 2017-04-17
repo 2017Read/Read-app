@@ -202,14 +202,19 @@ form{
 	width:auto;
 	float:left;
 }
+.write > li:nth-child(9) >div:nth-child(1)>a{
+	display:block;
+	width:auto;
+	height:auto;
+}
 .write > li:nth-child(9) >a:nth-child(2){
 	display:block;
 	height:1rem;
 	width:auto;
 	float:right;
 }
-.write > li:nth-child(9) >div>img{
-	height:100%;
+.write > li:nth-child(9) >div>a>img{
+	height:1rem;
 }
 .write > li:nth-child(9) >a>img{
 	height:100%;
