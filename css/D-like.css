@@ -289,7 +289,7 @@ header > div .X-shop {
 .D-wenzibox > div.D-zi2 > span:first-child{
 	display: block;
 	float:left;
-	margin-left:-2.5rem;
+	/*margin-left:-2.5rem;*/
 	font-size:0.36rem;
 	font-weight:bold;
 	color:#2e9fef;
