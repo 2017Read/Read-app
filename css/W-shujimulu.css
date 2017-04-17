@@ -182,3 +182,72 @@ header > div .X-shop {
   z-index: 1;
   text-align: center;
 }
+.W-shuji-scroll{
+	position:absolute;
+	top:1.9rem;
+	z-index: 33;
+
+}
+.W-shuji-list{
+	width: 100%;
+	height:auto;
+	/*background: red;*/
+
+}
+.W-shuji-list>li{
+	height:1.1rem;
+	width:100%;
+	background-image:url(../img/W-img/W-mulu-tiao.png);
+	background-size:7.5rem;
+	background-repeat: no-repeat;
+
+
+}
+.W-shuji-list>li>a{
+	display: block;
+	height:1.1rem;
+	width:100%;
+	/*text-align: center;*/
+}
+.W-left{
+	width: 0.7rem;
+	margin-left: 0.3rem;
+	margin-top: 0.15rem;
+	line-height: 0.7rem;
+	display: block;
+	float:left;
+	
+}
+.W-right{
+	width:6.1rem;
+	height:0.9rem;
+	float: left;
+	margin-left: 0.4rem;
+	/*background: red;*/
+}
+.W-da{
+	display: block;
+	float: left;
+	width:30%;
+	color: #1D89F7;
+	font-size: 0.3rem;
+	line-height:0.9rem;
+
+}
+.W-xiao{
+	display: block;
+	float: left;
+	width:auto;
+	color: #2F2727;
+	font-size: 0.25rem;
+	line-height:0.9rem;
+
+}
+.W-yinyu{
+	display: block;
+	float: left;
+	width:auto;
+	color: #2F2727;
+	font-size: 0.2rem;
+	line-height:0.9rem;
+}

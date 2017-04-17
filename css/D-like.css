@@ -4,54 +4,176 @@ body{
 }
 
 /*header*/
-header{
-	width:100%;
-	height:2.2rem;
-	background:#1D89F7;
-	text-align:center;
-	position:relative;
+header {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
 }
-.X-header-top{
-	width:100%;
-	height:0.4rem;
-	display:block;
+
+header > div {
+  width: 100%;
+  height: 2.2rem;
+  background: #1D89F7;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
 }
-.X-header-left{
-	width:0.64rem;
-	width:0.64rem;
-	float:left;
-	margin-top:0.4rem;
-	margin-left:0.24rem;
+
+header > div .X-left-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.24rem;
 }
-.X-header-right{
-	width:0.64rem;
-	width:0.64rem;
-	float:right;
-	margin-top:0.4rem;
-	margin-right:0.24rem;
+
+header > div .X-left-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-.X-header-medium{
-	width:7rem;
-	height:0.24rem;
-	position:absolute;
-	left:-0.1rem;
-	right:0;
-	top:1.3rem;
-	margin:auto;
+
+header > div .X-left-section a .X-header-left {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
 }
-.X-header-medium-two{
-	width:1.2rem;
-	height:0.36rem;
-	position:absolute;
-	left:-0.1rem;
-	right:0;
-	top:1rem;
-	margin:auto;
+
+header > div .X-right-section {
+  width: 0.64rem;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.4rem;
+  margin-right: 0.24rem;
 }
-.X-shop{
-	font-size:18px;
-	color:#FFF;
+
+header > div .X-right-section a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
+
+header > div .X-right-section a .X-header-right {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+header > div .X-header-medium {
+  width: 7rem;
+  height: 0.24rem;
+  position: absolute;
+  left: 0rem;
+  right: 0;
+  top: 1.4rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two {
+  width: 1.2rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-two {
+  width: 2.05rem;
+  height: 0.28rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-three {
+  width: 1.62rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-four {
+  width: 1.6rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-five {
+  width: 1.98rem;
+  height: 0.26rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-six {
+  width: 1.48rem;
+  height: 0.24rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-seven {
+  width: 1.21rem;
+  height: 0.36rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-eight {
+  width: 1.26rem;
+  height: 0.25rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-header-medium-two-nine {
+  width: 1.63rem;
+  height: 0.27rem;
+  position: absolute;
+  left: -0.1rem;
+  right: 0;
+  top: 0.9rem;
+  margin: auto;
+}
+
+header > div .X-shop {
+  width: 50%;
+  height: 0.5rem;
+  font-size: 18px;
+  color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.45rem;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+
 .D-imgbox{
 	width:100%;
 	height:6.4rem;
@@ -126,45 +248,58 @@ header{
 }
 .D-wenzibox{
 	width:4.2rem;
-	height:auto;
+	height:3rem;
 	margin:0 auto;
+	margin-top:0.5rem;
 }
 .D-wenzibox > div.D-zi1{
 	width:100%;
-	height:auto;
+	height:0.45rem;
 }
 .D-wenzibox > div.D-zi1 > span:first-child{
+	display: block;
+	float:left;
 	font-size:0.4rem;
 	font-weight:bold;
 	color:#2e363c;
 }
 .D-wenzibox > div.D-zi1 > span:last-child{
+	display: block;
+	float:left;
+	margin-top:0.2rem;
+	margin-left:0.1rem;
 	font-size: 0.26rem;
 	font-weight:normal;
 	color:#151719;
 }
 .D-wenzibox > div.D-zi2{
 	width:100%;
-	height:auto;
-	margin-top:-0.6rem;
+	height:0.4rem;
+	margin-top:0.1rem;
 }
 .D-wenzibox > div.D-zi2 > span:first-child{
+	display: block;
+	float:left;
+	margin-left:-2.5rem;
 	font-size:0.36rem;
 	font-weight:bold;
 	color:#2e9fef;
 }
 .D-wenzibox > div.D-zi2 > span:last-child{
+	display: block;
+	float:left;
+	margin-left:-1.15rem;
 	font-size: 0.36rem;
 	font-weight:normal;
 	color:#2e9fef;
-	margin-left:-0.27rem;
 }
 .D-wenzibox > div.D-zi3{
 	width:100%;
-	height:auto;
-	margin-top:-0.6rem;
+	height:0.73rem;
+	margin-top:0.2rem;
 }
 .D-wenzibox > div.D-zi3 > span:first-child{
+	display: block;
 	font-size:0.22rem;
 	color:#2e363c;
 }
@@ -176,7 +311,8 @@ header{
 .D-wenzibox > div.D-zi4{
 	width:120%;
 	height:0.55rem;
-	margin-top:0.3rem;
+	margin-top:0.25rem;
+	margin-left:-0.15rem;
 	position:relative;
 }
 .D-wenzibox > div.D-zi4 > div.D-touxiang{

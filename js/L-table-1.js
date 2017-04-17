@@ -28,9 +28,11 @@ $(document).ready(function(){
                 },
                 success:function(){
                 	$('.star').attr('src','../img/L-img/9.png')
-                }
-
-
-                
-       });  
+                }   
+       }); 
+    console.log($('.btn'))
+    $('.btn').click(function(){
+    	$('.btn>.cir').toggleClass('app');
+    	$('.btn>.bac').toggleClass('back');
+    })
 })
