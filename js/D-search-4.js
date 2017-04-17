@@ -1,7 +1,7 @@
 $(function(){
 	var myScroll;
 	myScroll=new IScroll("#wrapper", {
-		scrollbars: true,
+		scrollbars: false,
 		mouseWheel: true,
 		interactiveScrollbars: true,
 		shrinkScrollbars: 'clip',

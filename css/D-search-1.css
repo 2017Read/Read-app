@@ -340,15 +340,36 @@ div.D-title > div:nth-child(4){
   margin-left: 0.24rem; }
 
 .H-like-book-2 {
-  background-image: url(../img/H-img/H-book-2.png);
+  background-image: url("../img/H-img/H-book-2.png");
   margin-left: 0.2rem; }
 
 .H-like-book-3 {
-  background-image: url(../img/H-img/H-book-3.png);
+  background-image: url("../img/H-img/H-book-3.png");
   margin-left: 0.2rem; }
-  
-
-
+.H-like-book-4 {
+  background-image: url("../img/D-img/W-zuozhe-shu4.png");
+  background-size:2.6rem;
+}
+.H-like-book-5 {
+  background-image: url("../img/D-img/W-zuozhe-shu5.png");
+  background-size:2.6rem;
+}
+.H-like-book-6 {
+  background-image: url("../img/D-img/W-zuozhe-shu6.png");
+  background-size:2.6rem;
+}
+.H-like-book-7 {
+  background-image: url("../img/D-img/W-zuozhe-shu7.png");
+  background-size:2.6rem;
+}
+.H-like-book-8 {
+  background-image: url("../img/D-img/W-zuozhe-shu8.png");
+  background-size:2.6rem;
+}
+.H-like-book-9 {
+  background-image: url("../img/D-img/W-zuozhe-shu9.png");
+  background-size:2.6rem;
+}
 .H-renqi-main-box {
   width: 7.02rem;
   height: 1.5rem;
@@ -360,16 +381,44 @@ div.D-title > div:nth-child(4){
 }
 
 .H-renqi-main-box .H-renqi-img-1 {
-  width: 0.8rem;
+  width: 1.1rem;
+  height:1.27rem;
+  background-image: url(../img/D-img/D-ss1.png);
+  background-size:100%;
   float: left;
-  margin-left: 0.24rem;
-  margin-top: 0.19rem;
+  margin-left: -0.1rem;
+  margin-top: 0.1rem;
+}
+.H-renqi-main-box .H-renqi-img-2{
+	background-image: url(../img/D-img/D-ss2.png);
+  	background-size:100%;
+}
+.H-renqi-main-box .H-renqi-img-3{
+	background-image: url(../img/D-img/D-ss3.png);
+  	background-size:100%;
+}
+.H-renqi-main-box .H-renqi-img-4{
+	background-image: url(../img/D-img/D-ss4.png);
+  	background-size:100%;
+}
+.H-renqi-main-box .H-renqi-img-5{
+	background-image: url(../img/D-img/D-ss5.png);
+  	background-size:100%;
+}
+.H-renqi-main-box .H-renqi-img-6{
+	background-image: url(../img/D-img/D-ss6.png);
+  	background-size:100%;
 }
 
+.H-renqi-main-box .H-renqi-img-7{
+	background-image: url(../img/D-img/D-ss7.png);
+  	background-size:100%;
+}
 .H-renqi-titleBox {
   width: 3rem;
   height: 0.6rem;
   float: left;
+  margin-top:0.1rem;
   position: relative;
 }
 
@@ -411,15 +460,32 @@ div.D-title > div:nth-child(4){
   float: left;
 }
 
-.H-renqi-data .H-renqi-img-2 {
+.H-renqi-data .H-renqi-img-22 {
   float: left;
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  margin-top: 0.02rem;
-  margin-left: 0.2rem;
+  width: 0.81rem;
+  height: 0.82rem;
+  background-image: url(../img/D-img/D-search112.png);
+  background-size:100%;
+  margin-top: -0.1rem;
 }
-
+.H-renqi-data .H-renqi-img-21{
+	background-image: url(../img/D-img/D-tou1.png);
+}
+.H-renqi-data .H-renqi-img-23{
+	background-image: url(../img/D-img/D-search113.png);
+}
+.H-renqi-data .H-renqi-img-24{
+	background-image: url(../img/D-img/D-search114.png);
+}
+.H-renqi-data .H-renqi-img-25{
+	background-image: url(../img/D-img/D-search115.png);
+}
+.H-renqi-data .H-renqi-img-26{
+	background-image: url(../img/D-img/D-search116.png);
+}
+.H-renqi-data .H-renqi-img-27{
+	background-image: url(../img/D-img/D-search117.png);
+}
 .H-renqi-data .H-renqi-data-1 {
   font-size: 0.24rem;
   width: 1.16rem;
@@ -434,8 +500,8 @@ div.D-title > div:nth-child(4){
   height: 0.17rem;
   background-size: 2.35rem;
   float: left;
-  margin-left: 0.9rem;
-  margin-top: -0.1rem;
+  margin-left: 1rem;
+  margin-top: -0.3rem;
 }
 
 .H-renqi-hot {
@@ -447,9 +513,30 @@ div.D-title > div:nth-child(4){
   right: 0.2rem;
   top: -0.16rem;
 }
-
-
-
+.H-renqi-xing {
+  width: 1.23rem;
+  height: 0.26rem;
+  background: url(../img/D-img/D-xing5.png);
+  background-size: 100%;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.3rem;
+}
+.H-renqi-xing1{
+	width: 0.24rem;
+	background: url(../img/D-img/D-pinglun-xing1.png);
+	background-size: 100%;
+}
+.H-renqi-xing2{
+	width: 0.57rem;
+	background: url(../img/D-img/D-pinglun-xing2.png);
+	background-size: 100%;
+}
+.H-renqi-xing3{
+	width: 0.90rem;
+	background: url(../img/D-img/D-pinglun-xing3.png);
+	background-size: 100%;
+}
 /*语音*/
 .D-zhao{
 	width:100%;

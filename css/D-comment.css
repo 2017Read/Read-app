@@ -218,6 +218,27 @@ header > div .X-shop {
 	margin-left:0.1rem;
 	float:left;
 }
+.D-neitou1{
+	width:1.2rem;
+	height:1.2rem;
+	background-image: url(../img/D-img/D-pinglun2.png);
+	background-size:100%;
+	margin-left:0.2rem;
+	margin-top:0.1rem;
+	float:left;
+}
+.D-neitou2{
+	background-image: url(../img/D-img/D-pinglun3.png);
+}
+.D-neitou3{
+	background-image: url(../img/D-img/D-pinglun4.png);
+}
+.D-neitou4{
+	background-image: url(../img/D-img/D-pinglun5.png);
+}
+.D-neitou5{
+	background-image: url(../img/D-img/D-pinglun2.png);
+}
 .D-neizi{
 	width:5.7rem;
 	height:85%;
@@ -264,6 +285,33 @@ header > div .X-shop {
 	width:1.23rem;
 	height:0.26rem;
 	background-image: url(../img/D-img/D-xing5.png);
+	background-size: 100%;
+	position:absolute;
+	right:0.4rem;
+	bottom:0.35rem;
+}
+.D-xing1{
+	width:0.24rem;
+	height:0.26rem;
+	background-image: url(../img/D-img/D-pinglun-xing1.png);
+	background-size: 100%;
+	position:absolute;
+	right:0.4rem;
+	bottom:0.35rem;
+}
+.D-xing2{
+	width:0.57rem;
+	height:0.26rem;
+	background-image: url(../img/D-img/D-pinglun-xing2.png);
+	background-size: 100%;
+	position:absolute;
+	right:0.4rem;
+	bottom:0.35rem;
+}
+.D-xing3{
+	width:0.9rem;
+	height:0.26rem;
+	background-image: url(../img/D-img/D-pinglun-xing3.png);
 	background-size: 100%;
 	position:absolute;
 	right:0.4rem;

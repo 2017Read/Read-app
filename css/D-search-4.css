@@ -294,3 +294,65 @@ div.D-title > div:nth-child(4){
 .H-like-book-3 {
   background-image: url(../img/H-img/H-book-3.png);
   margin-left: 0.2rem; }
+  
+.H-like-book-4 {
+  background-image: url("../img/D-img/W-zuozhe-shu4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
+.H-like-book-5 {
+  background-image: url("../img/D-img/W-zuozhe-shu5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
+.H-like-book-6 {
+  background-image: url("../img/D-img/W-zuozhe-shu6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
+.H-like-book-7 {
+  background-image: url("../img/D-img/W-zuozhe-shu7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
+
+.H-like-book-8 {
+  background-image: url("../img/D-img/W-zuozhe-shu8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
+.H-like-book-9 {
+  background-image: url("../img/D-img/W-zuozhe-shu9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  width: 2.6rem;
+  height: 3.89rem;
+  float: left;
+  margin-left:-0.1rem;
+}
