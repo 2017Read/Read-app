@@ -291,16 +291,19 @@ header > div .X-shop {
 	/*background: red;*/
 	text-align: center;
 	position: absolute;
-	top: 3.3rem;
+	top: 3.9rem;
 	left: 0;
 }
 
 .W-calltop>div.W-fontone {
+
 	height: 0.3rem;
-	padding-top: 0.48rem;
+	/*padding-top: 0.48rem;*/
 	font-size: 0.18rem;
 	color: #7B7B7B;
-	margin-left: 3.16rem;
+	/*margin: 0 auto;*/
+	text-align: center;
+	margin-left: 39%;
 }
 
 .W-calltop>div.W-fontone>p {
@@ -316,31 +319,34 @@ header > div .X-shop {
 	line-height: 0.32rem;
 }
 
-.W-calltop>div.W-fonttwo {
-	height: 0.33rem;
-	text-align: center;
-	margin: 0 25%;
-	color: #8AC6F6;
+.W-calltop>.W-fonttwo {
+	height: 0.15rem;
+	/*text-align: center;*/
+	margin: 0.05rem auto;
+	display: block;
+	/*color: #8AC6F6;*/
+	/*margin-right: 36%;*/
+	
 }
 
-.W-calltop>div.W-fonttwo>span {
-	/*margin-top: -0.2rem;*/
+/*.W-calltop>div.W-fonttwo>span {
+	
 	font-size: 0.18rem;
 	font-weight: 200;
 	display: block;
 	float: left;
-}
+}*/
 
-.W-calltop>div.W-fonttwo>span.cu {
+/*.W-calltop>div.W-fonttwo>span.cu {
 	font-weight: 700;
-}
+}*/
 
-.W-calltop>img {
+.W-calltop>.W-fontthree{
 	height: 0.15rem;
 	margin: 0 auto;
 	display: block;
 	/*margin-top: -0.05rem;*/
-	margin-right: 36%;
+	/*margin-right: 36%;*/
 }
 
 .H-search-box {
@@ -449,7 +455,7 @@ header > div .X-shop {
 	width: 100%;
 }
 
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox{
 	height: 1.1rem;
 	width:4.32rem;
 	margin-left: 1.7rem;
@@ -457,11 +463,11 @@ header > div .X-shop {
 	float: left;
 	/*background: gold;*/
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font1{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font1{
 	height:0.5rem;
 	width:100%;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font1>span {
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font1>span {
 	height: 0.33rem;
 	width:auto;
 	font-size: 0.16rem;
@@ -471,36 +477,36 @@ header > div .X-shop {
 	float: left;
 }
 
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font1>span.W-call-span1{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font1>.W-call-span1{
 	font-weight: 700;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font1>span.W-call-span2{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font1>.W-call-span2{
 	font-weight: 200;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font1>img{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font1>img{
 	float: left;
 	height: 0.33rem;
 	margin-top: 0.17rem;
 	margin-left: 0.2rem;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>p{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>p{
 	width:auto;
 	height:0.3rem;
 	font-size: 0.2rem;
 	color: #817E7E;
 	letter-spacing:0.01rem;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font2{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font2{
 	height:0.5rem;
 	width:100%;
 
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font2>img{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font2>img{
 	width:0.16rem;
 	float: left;
 	margin-top: 0.1rem;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font2>span{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font2>span{
 	height: 0.33rem;
 	width:auto;
 	font-size: 0.18rem;
@@ -511,24 +517,24 @@ header > div .X-shop {
 	float: left;
 
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font2>span.W-call-span1{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font2>.W-call-span1{
 	color: #ADADAD;
 }
-.W-call-list>li>div.W-call-neibubox>div.W-call-fontbox>div.W-call-font2>span.W-call-span2{
+.W-call-list>li>.W-call-neibubox>.W-call-fontbox>.W-call-font2>.W-call-span2{
 	color: #BEBEBE;	
 }
-.W-call-list>li>div.W-call-neibubox>a.W-call-message{
+.W-call-list>li>.W-call-neibubox>.W-call-message{
 	width:0.31rem;
 	height:1.16rem;
 	/*background: red;*/
 	display: block;
 	float:right;
-	margin-right: 0.63rem;
+	padding-right: 0.63rem;
 /*	margin-bottom: 0.63rem;*/
 	
  
 }
-.W-call-list>li>div.W-call-neibubox>a.W-call-message>img{
+.W-call-list>li>.W-call-neibubox>.W-call-message>img{
 	height:0.31rem;
 	margin-top: 0.45rem;
 	display: block;
