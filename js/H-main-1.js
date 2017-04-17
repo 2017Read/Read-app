@@ -18,6 +18,7 @@ window.onload=function(){
 			interactiveScrollbars: true,
 			shrinkScrollbars: 'clip',
 			fadeScrollbars: true,
+			click:true,
 			resizeScrollbars:true,
 		});
 	};

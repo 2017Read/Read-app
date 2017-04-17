@@ -20,7 +20,19 @@
 		
 		
 		<script src="../js/iscroll.js"></script>
-		<script src="../js/demoUtils.js"></script>
+		<script >
+			function isPassive() {
+			    var supportsPassiveOption = false;
+			    try {
+			        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+			            get: function () {
+			                supportsPassiveOption = true;
+			            }
+			        }));
+			    } catch(e) {}
+			    return supportsPassiveOption;
+			};
+		</script>
 		
 	
 		<script type="text/javascript">
@@ -28,7 +40,7 @@
 			function loaded () {
 				myScroll = new IScroll('#wrapper', {
 					mouseWheel: true,  
-				    scrollbars: true ,
+				    scrollbars: false,
 				});
 			}
 			
