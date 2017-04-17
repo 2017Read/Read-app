@@ -243,8 +243,8 @@ header > div .X-shop {
 	border-radius:50%;
 	background:rgba(255,255,255,1);
 	position:absolute;
-	left:3.82rem;
-	top:6.2rem;
+	left:3.84rem;
+	top:6.18rem;
 	z-index:2;
 }
 .D-imgbox  ul > li.D-circle1 > img{
@@ -297,7 +297,7 @@ header > div .X-shop {
 .D-wenzibox > div.D-zi2 > span:last-child{
 	display: block;
 	float:left;
-	margin-left:-1.15rem;
+	/*margin-left:-1.15rem;*/
 	font-size: 0.36rem;
 	font-weight:normal;
 	color:#2e9fef;

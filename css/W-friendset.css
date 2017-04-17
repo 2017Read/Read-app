@@ -260,10 +260,12 @@ header > div .X-shop {
 }
 /*删除按钮*/
 .W-set-shan-a{
+	width:4.5rem;
 	height:0.8rem;
 	position: absolute;
 	top:10rem;
 	left:2.48rem;
+	overflow: hidden;
 
 }
 
