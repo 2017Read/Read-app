@@ -174,63 +174,70 @@ header > div .X-shop {
 }
 
 
-.D-imgbox{
+
+.D-likebox{
 	width:100%;
-	height:6.4rem;
-	position: relative;
-	margin-top:0.2rem;
+	height:11.1rem;
 }
-.D-imgbox > ul{
+
+/*.swiper-container {
+    width: 100%;
+    height:7rem;
+    margin-top:0.2rem;
+    position: relative;
+}*/
+.gallery-top {
+    height: 7rem;
+    width: 100%;
+    margin-top:0.2rem;
+    position: relative;
+}
+.gallery-thumbs {
+    height: 4.1rem;
+    width:100%;
+}
+.gallery-top > div.swiper-slide{
+	width:70%;
+	height:6.4rem;
+	position:relative;
+}
+.swiper-wrapper > div.swiper-slide > ul{
 	width:4.2rem;
 	height:6.4rem;
-	margin:0 auto;
+	margin-left:1.68rem;
 	position:absolute;
 }
-.D-imgbox > ul:first-child{
-	left:50%;
-	margin-left:-2.1rem;
-	top:0;
-}
-.D-imgbox > ul:nth-child(2){
-	left:6.8rem;
-	top:0.3rem;
-}
-.D-imgbox > ul:nth-child(3){
-	right:6.8rem;
-	top:0.3rem;
-}
-.D-imgbox > ul > li.D-likeimg1{
+.D-imgbox  ul > li.D-likeimg1{
 	width:2.4rem;
 	height:0.75rem;
 	margin:0  auto;
 }
-.D-imgbox > ul > li.D-likeimg1 > img{
+.D-imgbox  ul > li.D-likeimg1 > img{
 	display: block;
 	width:130%;
 	margin-top:-0.2rem;
 	margin-left:-0.25rem;
 }
-.D-imgbox > ul > li.D-likeimg2{
+.D-imgbox  ul > li.D-likeimg2{
 	width:4.2rem;
 	height:6rem;
 	margin:0  auto;
 	margin-top:0.2rem;
 }
-.D-imgbox > ul > li.D-likeimg2 > img{
+.D-imgbox  ul > li.D-likeimg2 > img{
 	display: block;
 	width:100%;
 }
-.D-imgbox > ul > li.D-circle{
+.D-imgbox  ul > li.D-circle{
 	width:0.8rem;
 	height:0.8rem;
 	border-radius:50%;
 	background:rgba(142,142,142,0.5);
-	/*background:red;*/
 	position:absolute;
 	left:3.73rem;
 	top:6.1rem;
 }
-.D-imgbox > ul > li.D-circle1{
+.D-imgbox  ul > li.D-circle1{
 	width:0.6rem;
 	height:0.6rem;
 	border-radius:50%;
@@ -240,17 +247,19 @@ header > div .X-shop {
 	top:6.2rem;
 	z-index:2;
 }
-.D-imgbox > ul > li.D-circle1 > img{
+.D-imgbox  ul > li.D-circle1 > img{
 	width:95%;
 	margin-left:0.02rem;
 	margin-bottom:0.02rem;
 	display: block;
 }
+
+
+
 .D-wenzibox{
 	width:4.2rem;
 	height:3rem;
 	margin:0 auto;
-	margin-top:0.5rem;
 }
 .D-wenzibox > div.D-zi1{
 	width:100%;
